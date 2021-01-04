@@ -9,7 +9,7 @@
                     <inertia-link class="nav-link" href="/">Home</inertia-link>
                 </li>
                 <li class="nav-item">
-                    <inertia-link class="nav-link" href="about">About</inertia-link>
+                    <inertia-link class="nav-link" href="instafeed">Instagram Gallery</inertia-link>
                 </li>
             </ul>
         </div>

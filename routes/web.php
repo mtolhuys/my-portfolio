@@ -17,5 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [IndexController::class, 'index']);
 
 Route::inertia('/', 'Index');
-Route::inertia('/about', 'About');
+Route::inertia('/instafeed', 'InstaGallery');
 

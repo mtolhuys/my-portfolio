@@ -41,7 +41,7 @@
     import FooterSection from "../FooterSection";
 
     export default {
-        components: {FooterSection, NavBar},
+        components: { FooterSection, NavBar },
         mounted() {
             console.log('Component mounted.')
         }
