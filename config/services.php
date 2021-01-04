@@ -30,4 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'instagram' => [
+        'token' => env('INSTAGRAM_TOKEN'),
+    ],
+
 ];

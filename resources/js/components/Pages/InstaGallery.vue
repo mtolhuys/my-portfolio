@@ -3,7 +3,6 @@
         <nav-bar/>
         <div class="container">
             <insta-feed
-                token="IGQVJYekZA2b2lyek9HZAXhiaXNBbDhORXFyVU14TTZAQSjdvNXM3UmZASdXpoS3M4UjNieVJpc1BYTC1uQnpZATnN3VTNSUTdGZAUkwZAGRWT3FfRjNPajg5MTZAZAYmZA6RVBqX3VhNVloQzh1b0w4UUZAzU214UQZDZD"
                 fields="media_url,media_type,caption,permalink"
                 container-class="image-container"
                 :mediatypes="['IMAGE']"

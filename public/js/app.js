@@ -4734,14 +4734,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     /*
-     * Instagram access token.
-     */
-    token: {
-      type: String,
-      required: true
-    },
-
-    /*
      * Media Fields (see https://developers.facebook.com/docs/instagram-basic-display-api/reference/media#fields)
      */
     fields: {
@@ -4786,12 +4778,7 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       this.loading = true;
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('https://graph.instagram.com/me/media', {
-        params: {
-          access_token: this.token,
-          fields: this.fields
-        }
-      }).then(function (response) {
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('insta-feed').then(function (response) {
         _this.loading = false;
 
         if (response.status === 400) {
@@ -4928,7 +4915,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NavBar */ "./resources/js/components/NavBar.vue");
 /* harmony import */ var _FooterSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FooterSection */ "./resources/js/components/FooterSection.vue");
 /* harmony import */ var _InstaFeed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../InstaFeed */ "./resources/js/components/InstaFeed.vue");
-//
 //
 //
 //
@@ -7158,8 +7144,6 @@ var render = function() {
         [
           _c("insta-feed", {
             attrs: {
-              token:
-                "IGQVJYekZA2b2lyek9HZAXhiaXNBbDhORXFyVU14TTZAQSjdvNXM3UmZASdXpoS3M4UjNieVJpc1BYTC1uQnpZATnN3VTNSUTdGZAUkwZAGRWT3FfRjNPajg5MTZAZAYmZA6RVBqX3VhNVloQzh1b0w4UUZAzU214UQZDZD",
               fields: "media_url,media_type,caption,permalink",
               "container-class": "image-container",
               mediatypes: ["IMAGE"]

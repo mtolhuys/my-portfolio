@@ -26,13 +26,6 @@ import axios from 'axios'
 export default {
     props: {
         /*
-         * Instagram access token.
-         */
-        token: {
-            type: String,
-            required: true
-        },
-        /*
          * Media Fields (see https://developers.facebook.com/docs/instagram-basic-display-api/reference/media#fields)
          */
         fields: {
@@ -71,10 +64,7 @@ export default {
     methods: {
         getUserFeed () {
             this.loading = true
-            axios
-                .get('https://graph.instagram.com/me/media', {
-                    params: { access_token: this.token, fields: this.fields }
-                })
+            axios.get('insta-feed')
                 .then((response) => {
                     this.loading = false
                     if (response.status === 400) {
