@@ -3,14 +3,17 @@
         <slot name="loading" :loading="loading" />
 
         <div class="row align-items-start">
+            <div class="container-fluid px-0">
+                <div class="row">
             <slot
                 v-for="(feed, index) in feeds"
                 :index="index"
                 :feed="feed"
                 name="feeds"
             />
+                </div>
+            </div>
         </div>
-
         <slot name="error" :error="error" />
     </div>
 </template>
@@ -37,7 +40,7 @@ export default {
          */
         count: {
             type: Number,
-            default: 12
+            default: 6
         },
         /*
          * Kinds of media to filter (Can be IMAGE, VIDEO, or CAROUSEL_ALBUM.).

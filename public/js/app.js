@@ -4688,6 +4688,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Footer mounted.');
@@ -4730,6 +4749,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
@@ -4746,7 +4768,7 @@ __webpack_require__.r(__webpack_exports__);
      */
     count: {
       type: Number,
-      "default": 12
+      "default": 6
     },
 
     /*
@@ -4805,6 +4827,42 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "HeaderImage"
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/NavBar.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/NavBar.vue?vue&type=script&lang=js& ***!
@@ -4814,6 +4872,136 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4852,6 +5040,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NavBar */ "./resources/js/components/NavBar.vue");
 /* harmony import */ var _FooterSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FooterSection */ "./resources/js/components/FooterSection.vue");
 /* harmony import */ var _Skills__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Skills */ "./resources/js/components/Skills.vue");
+/* harmony import */ var _Layouts_HeaderImage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Layouts/HeaderImage */ "./resources/js/components/Layouts/HeaderImage.vue");
+/* harmony import */ var _InstaGallery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./InstaGallery */ "./resources/js/components/Pages/InstaGallery.vue");
 //
 //
 //
@@ -4861,31 +5051,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
 
 
 
@@ -4893,7 +5060,9 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     FooterSection: _FooterSection__WEBPACK_IMPORTED_MODULE_1__["default"],
     NavBar: _NavBar__WEBPACK_IMPORTED_MODULE_0__["default"],
-    Skills: _Skills__WEBPACK_IMPORTED_MODULE_2__["default"]
+    Skills: _Skills__WEBPACK_IMPORTED_MODULE_2__["default"],
+    HeaderImage: _Layouts_HeaderImage__WEBPACK_IMPORTED_MODULE_3__["default"],
+    InstaGallery: _InstaGallery__WEBPACK_IMPORTED_MODULE_4__["default"]
   },
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -4914,52 +5083,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NavBar */ "./resources/js/components/NavBar.vue");
 /* harmony import */ var _FooterSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FooterSection */ "./resources/js/components/FooterSection.vue");
 /* harmony import */ var _InstaFeed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../InstaFeed */ "./resources/js/components/InstaFeed.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -5093,7 +5216,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n@media (min-width: 768px) and (max-width: 991.98px) {\n.container[data-v-2dc205a6] {\n        max-width: 1300px;\n}\n}\n@media (min-width: 1200px) {\n.container[data-v-2dc205a6] {\n        max-width: 1600px;\n}\n}\nimg.instagram-image[data-v-2dc205a6] {\n    width: 300px;\n    height: 300px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.time[data-v-2dc205a6] {\n    font-size: 9px !important\n}\n.socials i[data-v-2dc205a6] {\n    margin-right: 14px;\n    font-size: 17px;\n    color: #d2c8c8;\n    cursor: pointer\n}\n.feed[data-v-2dc205a6] {\n    width: -webkit-min-content ;\n    width: -moz-min-content ;\n    width: min-content ;\n    padding: 10px;\n}\n.image-container[data-v-2dc205a6] {\n    padding: 40px 0;\n}\n.feed-image img[data-v-2dc205a6] {\n    width: 100%;\n    height: auto\n}\n", ""]);
+exports.push([module.i, "\nimg.img-fluid[data-v-2dc205a6] {\n    width: 300px;\n    height: 300px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n", ""]);
 
 // exports
 
@@ -6959,13 +7082,90 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "footer",
-      {
-        staticClass: "py-4 bg-dark text-white-50",
-        attrs: { id: "sticky-footer" }
-      },
+      { staticClass: "py-4", staticStyle: { background: "#111" } },
       [
         _c("div", { staticClass: "container text-center" }, [
-          _c("small", [_vm._v("Made with 💗 by Deisi")])
+          _c("div", { staticClass: "row align-items-center" }, [
+            _c("div", { staticClass: "col-md-4 text-lg-left" }, [
+              _c("img", {
+                attrs: { src: "images/round-logo.png", alt: "...", width: "60" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 text-center" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "d-flex align-items-center flex-wrap justify-content-center"
+                },
+                [
+                  _c("h6", { staticClass: "text-muted mb-0 py-2 mr-3" }, [
+                    _vm._v("Follow me"),
+                    _c("span", { staticClass: "ml-3" }, [_vm._v("-")])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "ul",
+                    { staticClass: "list-inline small mb-0 text-white" },
+                    [
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          { staticClass: "reset-anchor", attrs: { href: "#" } },
+                          [_c("i", { staticClass: "fab fa-facebook-f" })]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          { staticClass: "reset-anchor", attrs: { href: "#" } },
+                          [_c("i", { staticClass: "fab fa-twitter" })]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          { staticClass: "reset-anchor", attrs: { href: "#" } },
+                          [_c("i", { staticClass: "fab fa-instagram" })]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          { staticClass: "reset-anchor", attrs: { href: "#" } },
+                          [_c("i", { staticClass: "fab fa-linkedin" })]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          { staticClass: "reset-anchor", attrs: { href: "#" } },
+                          [_c("i", { staticClass: "fab fa-youtube" })]
+                        )
+                      ])
+                    ]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4 text-lg-right" }, [
+              _c(
+                "p",
+                { staticClass: "mb-0 text-muted text-small text-heading" },
+                [
+                  _vm._v(
+                    "\n                    Made with ❤️ by Deisi\n                "
+                  )
+                ]
+              )
+            ])
+          ])
         ])
       ]
     )
@@ -6998,16 +7198,20 @@ var render = function() {
     [
       _vm._t("loading", null, { loading: _vm.loading }),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row align-items-start" },
-        [
-          _vm._l(_vm.feeds, function(feed, index) {
-            return _vm._t("feeds", null, { index: index, feed: feed })
-          })
-        ],
-        2
-      ),
+      _c("div", { staticClass: "row align-items-start" }, [
+        _c("div", { staticClass: "container-fluid px-0" }, [
+          _c(
+            "div",
+            { staticClass: "row" },
+            [
+              _vm._l(_vm.feeds, function(feed, index) {
+                return _vm._t("feeds", null, { index: index, feed: feed })
+              })
+            ],
+            2
+          )
+        ])
+      ]),
       _vm._v(" "),
       _vm._t("error", null, { error: _vm.error })
     ],
@@ -7015,6 +7219,68 @@ var render = function() {
   )
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "bg-white pb-5" }, [
+      _c("div", { staticClass: "container-fluid px-0 pnb-4" }, [
+        _c("div", { staticClass: "row align-items-center" }, [
+          _c("div", { staticClass: "col-lg-12" }, [
+            _c("div", { staticClass: "post-thumnail" }, [
+              _c("img", {
+                staticClass: "img-fluid w-100",
+                attrs: { src: "images/home-bg.jpg", alt: "" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-6 mx-auto text-center" }, [
+            _c("h1", { staticClass: "mb-4" }, [_vm._v("Hola! Ik ben Deisi.")]),
+            _vm._v(" "),
+            _c("h3", [_vm._v("l'art pour l'art... Art for Art's sake!")]),
+            _vm._v(" "),
+            _c("span", [
+              _vm._v(
+                "Front-end Developer, based in Den Helder, the Netherlands."
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-muted" }, [
+              _vm._v(
+                "\n                    I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.\n                    I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.\n                 "
+              )
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -7036,63 +7302,339 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "nav",
-    {
-      staticClass: "navbar navbar-expand-lg navbar-light",
-      staticStyle: { "background-color": "rgb(246 202 202)" }
-    },
-    [
-      _vm._m(0),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "collapse navbar-collapse",
-          attrs: { id: "navbarSupportedContent" }
-        },
-        [
-          _c("ul", { staticClass: "navbar-nav mr-auto" }, [
-            _c(
-              "li",
-              { staticClass: "nav-item active" },
-              [
+  return _c("header", { staticClass: "header" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "nav",
+      {
+        staticClass:
+          "navbar navbar-expand-lg navbar-light border-top border-bottom border-light"
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _vm._m(1),
+          _vm._v(" "),
+          _c("button", {
+            staticClass: "navbar-toggler navbar-toggler-right",
+            attrs: {
+              type: "button",
+              "data-toggle": "collapse",
+              "data-target": "#navbarSupportedContent",
+              "aria-controls": "navbarSupportedContent",
+              "aria-expanded": "false",
+              "aria-label": "Toggle navigation"
+            }
+          }),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "collapse navbar-collapse",
+              attrs: { id: "navbarSupportedContent" }
+            },
+            [
+              _c("ul", { staticClass: "navbar-nav mx-auto" }, [
                 _c(
-                  "inertia-link",
-                  { staticClass: "nav-link", attrs: { href: "/" } },
-                  [_vm._v("Home")]
-                )
-              ],
-              1
-            ),
-            _vm._v(" "),
-            _c(
-              "li",
-              { staticClass: "nav-item" },
-              [
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass: "nav-link active",
+                        attrs: { href: "instafeed" }
+                      },
+                      [_vm._v("Home")]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(2),
+                _vm._v(" "),
                 _c(
-                  "inertia-link",
-                  { staticClass: "nav-link", attrs: { href: "instafeed" } },
-                  [_vm._v("Instagram Gallery")]
-                )
-              ],
-              1
-            )
-          ])
-        ]
-      )
-    ]
-  )
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass: "nav-link active",
+                        attrs: { href: "instafeed" }
+                      },
+                      [_vm._v("Home")]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(3)
+              ])
+            ]
+          )
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
-      _c("img", {
-        attrs: { width: "50px", src: "images/round-logo.png", alt: "logo" }
-      })
+    return _c(
+      "nav",
+      {
+        staticClass:
+          "navbar navbar-expand-lg navbar-light py-4 index-forward bg-white"
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "container d-flex justify-content-center justify-content-lg-between align-items-center"
+          },
+          [
+            _c(
+              "ul",
+              {
+                staticClass:
+                  "list-inline small mb-0 text-dark d-none d-lg-block"
+              },
+              [
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c(
+                    "a",
+                    { staticClass: "reset-anchor", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-github" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c(
+                    "a",
+                    { staticClass: "reset-anchor", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-twitter" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c(
+                    "a",
+                    { staticClass: "reset-anchor", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-instagram" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c(
+                    "a",
+                    { staticClass: "reset-anchor", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-linkedin" })]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c(
+                    "a",
+                    { staticClass: "reset-anchor", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-youtube" })]
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              { staticClass: "navbar-brand", attrs: { href: "index.html" } },
+              [
+                _c("img", {
+                  attrs: {
+                    src: "images/my-logo.png",
+                    alt: "D'art logo",
+                    width: "100"
+                  }
+                })
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass:
+                  "reset-anchor text-small mb-0 h6 d-none d-lg-block",
+                attrs: { href: "mailto:deisi.bonilla@gmail.com" }
+              },
+              [
+                _c("i", { staticClass: "far fa-envelope mr-2 text-primary" }),
+                _vm._v(
+                  "\n                    deisi.bonilla@gmail.com\n            "
+                )
+              ]
+            )
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "ul",
+      { staticClass: "list-inline small mb-0 text-dark d-block d-lg-none" },
+      [
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c("a", { staticClass: "reset-anchor", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "fab fa-facebook-f" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c("a", { staticClass: "reset-anchor", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "fab fa-twitter" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c("a", { staticClass: "reset-anchor", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "fab fa-instagram" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c("a", { staticClass: "reset-anchor", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "fab fa-linkedin" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c("a", { staticClass: "reset-anchor", attrs: { href: "#" } }, [
+            _c("i", { staticClass: "fab fa-youtube" })
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            id: "listingVariants",
+            href: "#",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                            Blog Listing\n                        "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu mt-2",
+          attrs: { "aria-labelledby": "listingVariants" }
+        },
+        [
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "listing-1.html" } },
+            [
+              _vm._v(
+                "\n                                Post column\n                            "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "listing-2.html" } },
+            [
+              _vm._v(
+                "\n                                Post row\n                            "
+              )
+            ]
+          )
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            id: "pages",
+            href: "#",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                            Pages\n                        "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu mt-2",
+          attrs: { "aria-labelledby": "pages" }
+        },
+        [
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "index.html" } },
+            [
+              _vm._v(
+                "\n                                Home\n                            "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "listing-1.html" } },
+            [
+              _vm._v(
+                "\n                                Listing\n                            "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "post.html" } },
+            [
+              _vm._v(
+                "\n                                Post\n                            "
+              )
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
@@ -7123,71 +7665,16 @@ var render = function() {
     [
       _c("nav-bar"),
       _vm._v(" "),
-      _vm._m(0),
+      _c("header-image"),
       _vm._v(" "),
-      _c("div", { staticClass: "container" }, [_c("skills")], 1),
+      _c("insta-gallery"),
       _vm._v(" "),
       _c("footer-section")
     ],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "jumbotron" }, [
-      _c("div", { staticClass: "container text-center" }, [
-        _c("div", { staticClass: "row justify-content-center" }, [
-          _c("div", { staticClass: "col-md-7" }, [
-            _c("h1", { staticClass: "display-4" }, [
-              _vm._v("Hola! Ik ben Deisi")
-            ]),
-            _vm._v(" "),
-            _c("span", [
-              _vm._v(
-                "Front-end Developer, based in Den Helder, the Netherlands."
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "lead" }, [
-              _vm._v(
-                "\n                        I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.\n                        I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.\n                        Currently I'm learning Vue and my goal is to complete this website entirely on vue and learn Laravel on the way.\n                    "
-              )
-            ]),
-            _vm._v(" "),
-            _c("hr", { staticClass: "my-4" }),
-            _vm._v(" "),
-            _c("p", [_vm._v("Follow me on Social Media.")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "lead" }, [
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fab fa-github" })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fab fa-linkedin-in" })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fab fa-twitter" })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fab fa-instagram" })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [
-                _c("i", { staticClass: "fab fa-youtube" })
-              ])
-            ])
-          ])
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -7210,146 +7697,52 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    { attrs: { id: "page-content" } },
+    "section",
     [
-      _c("nav-bar"),
-      _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "container" },
-        [
-          _c("insta-feed", {
-            attrs: {
-              fields: "media_url,media_type,caption,permalink",
-              "container-class": "image-container",
-              mediatypes: ["IMAGE"]
-            },
-            scopedSlots: _vm._u([
-              {
-                key: "loading",
-                fn: function(props) {
-                  return [
-                    props.loading
-                      ? _c("h1", { staticClass: "fancy-loading" }, [
-                          _vm._v(
-                            "\n                    Loading, please wait...\n                "
-                          )
-                        ])
-                      : _vm._e()
-                  ]
-                }
-              },
-              {
-                key: "feeds",
-                fn: function(props) {
-                  return [
-                    _c("div", {}, [
-                      _c("div", {}, [
-                        _c("div", { staticClass: "col-12" }, [
-                          _c("div", { staticClass: "feed" }, [
-                            _c("div", { staticClass: "bg-white border" }, [
-                              _c("div", [
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass:
-                                      "d-flex flex-row justify-content-between align-items-center p-2 border-bottom"
-                                  },
-                                  [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "d-flex flex-row align-items-center feed-text px-2"
-                                      },
-                                      [
-                                        _c(
-                                          "a",
-                                          {
-                                            attrs: {
-                                              href: props.feed.permalink,
-                                              rel: "noopener",
-                                              target: "_blank"
-                                            }
-                                          },
-                                          [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass: "instagram-image"
-                                              },
-                                              [
-                                                _c("img", {
-                                                  staticClass:
-                                                    "instagram-image",
-                                                  attrs: {
-                                                    src: props.feed.media_url,
-                                                    alt: "Instagram post"
-                                                  }
-                                                })
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "p-2 px-3" }, [
-                                _c("span", [
-                                  _c("strong", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "https://www.instagram.com/deisi_art/",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [_vm._v("deisi_art")]
-                                    )
-                                  ])
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("div", { staticClass: "p-2 px-3" }, [
-                                _c("span", [_vm._v(_vm._s(props.feed.caption))])
-                              ])
-                            ])
-                          ])
-                        ])
+      _c("insta-feed", {
+        attrs: {
+          fields: "media_url,media_type,caption,permalink",
+          "container-class": "image-container",
+          mediatypes: ["IMAGE"]
+        },
+        scopedSlots: _vm._u([
+          {
+            key: "feeds",
+            fn: function(props) {
+              return [
+                _c("div", { staticClass: "col-lg-2 col-4 p-0" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "d-block instagram-item",
+                      attrs: {
+                        href: props.feed.permalink,
+                        rel: "noopener",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "img-fluid",
+                        attrs: {
+                          src: props.feed.media_url,
+                          alt: "Instagram post"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "instagram-item-overlay" }, [
+                        _c("i", { staticClass: "fab fa-instagram" })
                       ])
-                    ])
-                  ]
-                }
-              },
-              {
-                key: "error",
-                fn: function(props) {
-                  return [
-                    _c("div", { staticClass: "fancy-alert" }, [
-                      _vm._v(
-                        "\n                    " +
-                          _vm._s(props.error) +
-                          "\n                "
-                      )
-                    ])
-                  ]
-                }
-              }
-            ])
-          })
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("footer-section")
+                    ]
+                  )
+                ])
+              ]
+            }
+          }
+        ])
+      })
     ],
     1
   )
@@ -7359,23 +7752,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "jumbotron" }, [
-      _c("div", { staticClass: "container text-center" }, [
-        _c("div", { staticClass: "row justify-content-center" }, [
-          _c("div", { staticClass: "col-md-7" }, [
-            _c("h1", { staticClass: "display-6" }, [
-              _vm._v("Check my artwork on Instagram")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "lead" }, [
-              _vm._v(
-                "\n                        I like to draw & paint as a hobby, my favorite subject are flowers and animals.\n                        I like to experiment with different styles and mediums. Check out my current pieces on Instagram!\n                    "
-              )
-            ])
-          ])
-        ])
-      ])
-    ])
+    return _c(
+      "div",
+      { staticClass: "instagram-section-title d-none d-sm-block" },
+      [
+        _c("i", { staticClass: "fab fa-instagram mr-2" }),
+        _vm._v("\n        Follow on Instagram @deisi_art\n    ")
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -16250,6 +16634,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InstaFeed_vue_vue_type_template_id_0a294cbe___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InstaFeed_vue_vue_type_template_id_0a294cbe___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Layouts/HeaderImage.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/Layouts/HeaderImage.vue ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true& */ "./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true&");
+/* harmony import */ var _HeaderImage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HeaderImage.vue?vue&type=script&lang=js& */ "./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _HeaderImage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "43d25a0d",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Layouts/HeaderImage.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderImage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./HeaderImage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Layouts/HeaderImage.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderImage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true& ***!
+  \****************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Layouts/HeaderImage.vue?vue&type=template&id=43d25a0d&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HeaderImage_vue_vue_type_template_id_43d25a0d_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
