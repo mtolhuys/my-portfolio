@@ -1,6 +1,19 @@
 <template>
     <div id="page-content">
         <nav-bar/>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <h1 class="display-6">Check my artwork on Instagram</h1>
+                        <p class="lead">
+                            I like to draw & paint as a hobby, my favorite subject are flowers and animals.
+                            I like to experiment with different styles and mediums. Check out my current pieces on Instagram!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <insta-feed
                 fields="media_url,media_type,caption,permalink"
@@ -57,41 +70,6 @@
     </div>
 </template>
 
-<style>
-    .container {
-        max-width: 1600px;
-    }
-    img.instagram-image {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    .time {
-        font-size: 9px !important
-    }
-
-    .socials i {
-        margin-right: 14px;
-        font-size: 17px;
-        color: #d2c8c8;
-        cursor: pointer
-    }
-
-    .feed {
-        width: min-content ;
-        padding: 10px;
-    }
-
-    .image-container {
-        padding: 40px 0;
-    }
-
-    .feed-image img {
-        width: 100%;
-        height: auto
-    }
-</style>
-
 <script>
 import NavBar from "../NavBar";
 import FooterSection from "../FooterSection";
@@ -104,3 +82,47 @@ import InstaFeed from "../InstaFeed";
         }
     }
 </script>
+
+<style scoped>
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+img.instagram-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.time {
+    font-size: 9px !important
+}
+
+.socials i {
+    margin-right: 14px;
+    font-size: 17px;
+    color: #d2c8c8;
+    cursor: pointer
+}
+
+.feed {
+    width: min-content ;
+    padding: 10px;
+}
+
+.image-container {
+    padding: 40px 0;
+}
+
+.feed-image img {
+    width: 100%;
+    height: auto
+}
+</style>

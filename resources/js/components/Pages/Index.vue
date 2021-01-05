@@ -5,13 +5,13 @@
             <div class="container text-center">
                 <div class="row justify-content-center">
                     <div class="col-md-7">
-                        <h1 class="display-4">D'art</h1>
-                        <span>D'art pour l'art</span>
-                        <p class="lead"><i>Art for Art's sake!</i><br>
-                            I like to draw & paint as a hobby, my favorite subject are flowers and animals.
-                            I like to experiment with different styles and mediums. Check out my current pieces on Instagram!
+                        <h1 class="display-4">Hola! Ik ben Deisi</h1>
+                        <span>Front-end Developer, based in Den Helder, the Netherlands.</span>
+                        <p class="lead">
+                            I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.
+                            I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.
+                            Currently I'm learning Vue and my goal is to complete this website entirely on vue and learn Laravel on the way.
                         </p>
-                        <span>Based in Den Helder</span>
                         <hr class="my-4">
                         <p>Follow me on Social Media.</p>
                         <p class="lead">
@@ -25,25 +25,29 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <skills/>
+        </div>
         <footer-section/>
     </div>
 </template>
 
-<style>
-    .fab, .fas {
-        font-size: 24px;
-        padding: 5px;
-    }
-</style>
-
 <script>
     import NavBar from "../NavBar";
     import FooterSection from "../FooterSection";
+    import Skills from "../Skills";
 
     export default {
-        components: { FooterSection, NavBar },
+        components: { FooterSection, NavBar, Skills },
         mounted() {
             console.log('Component mounted.')
         }
     }
 </script>
+
+<style scoped>
+.fab, .fas {
+    font-size: 24px;
+    padding: 5px;
+}
+</style>
