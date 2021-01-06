@@ -3,7 +3,7 @@
         <div class="container-fluid px-0 pnb-4">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <div class="post-thumnail"><img class="img-fluid w-100" src="images/home-bg.jpg" alt=""></div>
+                    <div class="post-thumnail"><img class="img-fluid w-100 header-image" src="images/flowers.jpg" alt=""></div>
                 </div>
                 <div class="col-lg-6 mx-auto text-center">
                     <h1 class="mb-4">Hola! Ik ben Deisi.</h1>
@@ -13,7 +13,6 @@
                         I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.
                         I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.
                      </p>
-                    <iframe src="http://www.youtube.com/embed/?listType=user_uploads&list=MTolhuijs" width="850" height="500"></iframe>
                 </div>
             </div>
         </div>
@@ -27,5 +26,9 @@ export default {
 </script>
 
 <style scoped>
+    .header-image {
+        max-height: 600px;
+        object-fit: cover;
+    }
 
 </style>
