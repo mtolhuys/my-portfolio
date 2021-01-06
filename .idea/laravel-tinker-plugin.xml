@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="laravelTinkerProject">
+    <option name="lastCode" value="&lt;?php&#10;&#10;return config('services.instagram.token');&#10;&#10;use Illuminate\Support\Facades\Http;&#10;&#10;return Http::get('https://graph.instagram.com/me/media', [&#10;    'access_token' =&gt; 'IGQVJYekZA2b2lyek9HZAXhiaXNBbDhORXFyVU14TTZAQSjdvNXM3UmZASdXpoS3M4UjNieVJpc1BYTC1uQnpZATnN3VTNSUTdGZAUkwZAGRWT3FfRjNPajg5MTZAZAYmZA6RVBqX3VhNVloQzh1b0w4UUZAzU214UQZDZD',&#10;    'fields' =&gt; 'media_url,media_type,caption,permalink',&#10;])-&gt;json();" />
+  </component>
+</project>

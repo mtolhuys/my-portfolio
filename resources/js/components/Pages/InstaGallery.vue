@@ -42,4 +42,12 @@ import InstaFeed from "../InstaFeed";
         height: 300px;
         object-fit: cover;
     }
+    @media (max-width: 500px) {
+        img.img-fluid {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
 </style>

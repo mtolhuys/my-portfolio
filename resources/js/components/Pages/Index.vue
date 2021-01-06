@@ -10,12 +10,11 @@
 <script>
     import NavBar from "../NavBar";
     import FooterSection from "../FooterSection";
-    import Skills from "../Skills";
     import HeaderImage from "../Layouts/HeaderImage";
     import InstaGallery from "./InstaGallery";
 
     export default {
-        components: { FooterSection, NavBar, Skills, HeaderImage, InstaGallery },
+        components: { FooterSection, NavBar, HeaderImage, InstaGallery },
         mounted() {
             console.log('Component mounted.')
         }

@@ -44,7 +44,7 @@
                 <ul class="list-inline small mb-0 text-dark d-block d-lg-none">
                     <li class="list-inline-item">
                         <a class="reset-anchor"  href="https://github.com/dtolhuijs" target="_blank">
-                            <i class="fab fa-facebook-f"></i></a></li>
+                            <i class="fab fa-github"></i></a></li>
                     <li class="list-inline-item">
                         <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
                             <i class="fab fa-twitter"></i>

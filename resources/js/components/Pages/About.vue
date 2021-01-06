@@ -39,7 +39,7 @@
 <script>
 import NavBar from "../NavBar";
 import FooterSection from "../FooterSection";
-import Skills from "../Skills";
+import Skills from "../Layouts/Skills";
 
 export default {
     components: { FooterSection, NavBar, Skills },
