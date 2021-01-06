@@ -13,6 +13,7 @@
                         I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.
                         I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.
                      </p>
+                    <iframe src="http://www.youtube.com/embed/?listType=user_uploads&list=MTolhuijs" width="850" height="500"></iframe>
                 </div>
             </div>
         </div>

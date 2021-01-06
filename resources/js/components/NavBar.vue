@@ -4,34 +4,28 @@
             <div class="container d-flex justify-content-center justify-content-lg-between align-items-center">
                 <ul class="list-inline small mb-0 text-dark d-none d-lg-block">
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-github">
-                            </i>
+                        <a class="reset-anchor" href="https://github.com/dtolhuijs" target="_blank">
+                            <i class="fab fa-github"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor"
-                           href="#">
-                            <i class="fab fa-twitter">
-                            </i>
+                        <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-instagram">
-                            </i>
+                        <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-linkedin">
-                            </i>
+                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-youtube">
-                            </i>
+                        <a class="reset-anchor" href="https://www.youtube.com/channel/UCnZeCa3xT7TOjzeqiMwlxQw" target="_blank">
+                            <i class="fab fa-youtube"></i>
                         </a>
                     </li>
                 </ul>
@@ -49,30 +43,26 @@
             <div class="container">
                 <ul class="list-inline small mb-0 text-dark d-block d-lg-none">
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
+                        <a class="reset-anchor"  href="https://github.com/dtolhuijs" target="_blank">
                             <i class="fab fa-facebook-f"></i></a></li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-twitter">
-                            </i>
+                        <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-instagram">
-                            </i>
+                        <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-linkedin">
-                            </i>
+                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="#">
-                            <i class="fab fa-youtube">
-                            </i>
+                        <a class="reset-anchor" href="https://www.youtube.com/channel/UCnZeCa3xT7TOjzeqiMwlxQw" target="_blank">
+                            <i class="fab fa-youtube"></i>
                         </a>
                     </li>
                 </ul>
@@ -82,62 +72,25 @@
                         data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent"
                         aria-expanded="false"
-                        aria-label="Toggle navigation">
+                        aria-label="Toggle navigation"
+                        id="drop-down-menu">
+                    <span></span><span></span><span></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link active"  href="instafeed">Home</inertia-link>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle"
-                               id="listingVariants" href="#"
-                               data-toggle="dropdown"
-                               aria-haspopup="true"
-                               aria-expanded="false">
-                                Blog Listing
-                            </a>
-                            <div class="dropdown-menu mt-2"
-                                 aria-labelledby="listingVariants">
-                                <a class="dropdown-item"
-                                   href="listing-1.html">
-                                    Post column
-                                </a>
-                                <a class="dropdown-item"
-                                   href="listing-2.html">
-                                    Post row
-                                </a>
-                            </div>
+                            <inertia-link
+                                class="nav-link"
+                                href="/">Home</inertia-link>
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link active"  href="instafeed">Home</inertia-link>
+                            <inertia-link class="nav-link"  href="about">About</inertia-link>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle"
-                               id="pages"
-                               href="#"
-                               data-toggle="dropdown"
-                               aria-haspopup="true"
-                               aria-expanded="false">
-                                Pages
-                            </a>
-                            <div class="dropdown-menu mt-2"
-                                 aria-labelledby="pages">
-                                <a class="dropdown-item"
-                                   href="index.html">
-                                    Home
-                                </a>
-                                <a class="dropdown-item"
-                                   href="listing-1.html">
-                                    Listing
-                                </a>
-                                <a class="dropdown-item"
-                                   href="post.html">
-                                    Post
-                                </a>
-                            </div>
+                        <li class="nav-item">
+                            <!-- Navbar link-->
+                            <inertia-link class="nav-link"  href="blog">Blog posts</inertia-link>
                         </li>
                     </ul>
                 </div>
@@ -149,7 +102,9 @@
 <script>
 export default {
     mounted() {
-        console.log('Component mounted.')
+        $('.nav-link').on('click', function () {
+            $(this).toggleClass('active');
+        });
     }
 }
 </script>

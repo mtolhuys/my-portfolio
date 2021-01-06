@@ -18,5 +18,6 @@ Route::get('/', [IndexController::class, 'index']);
 Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
 
 Route::inertia('/', 'Index');
-Route::inertia('/instafeed', 'InstaGallery');
+Route::inertia('/about', 'About');
+Route::inertia('/blog', 'Blog');
 

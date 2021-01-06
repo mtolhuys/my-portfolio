@@ -7,7 +7,7 @@
                     <div class="d-flex align-items-center flex-wrap justify-content-center">
                         <h6 class="text-muted mb-0 py-2 mr-3">Follow me<span class="ml-3">-</span></h6>
                         <ul class="list-inline small mb-0 text-white">
-                            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-github"></i></a></li>
                             <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
                             <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a></li>
                             <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a></li>

@@ -12118,7 +12118,7 @@ a.text-hover-dark:hover {
 */
 
 .text-small {
-  font-size: 0.9rem !important;
+  font-size: 1.2rem !important;
 }
 
 .overflow-visible {
@@ -13200,7 +13200,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .lead {
@@ -13238,7 +13238,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 120%;
   font-weight: 400;
 }
 
@@ -14095,6 +14095,10 @@ code {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #ef5285;
+}
+
+.nav-link {
+  font-size: 1.2rem;
 }
 
 /*
