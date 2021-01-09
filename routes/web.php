@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
 Route::get('/', [IndexController::class, 'index']);
 Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
@@ -20,4 +21,7 @@ Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
 Route::inertia('/', 'Index');
 Route::inertia('/about', 'About');
 Route::inertia('/blog', 'Blog');
+Route::inertia('/login', 'UserPages/Login');
+Route::inertia('/register', 'UserPages/Registration');
+Route::inertia('/profile', 'UserPages/Profile');
 

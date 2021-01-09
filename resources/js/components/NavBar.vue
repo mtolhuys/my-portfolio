@@ -92,6 +92,22 @@
                             <!-- Navbar link-->
                             <inertia-link class="nav-link"  href="blog">Blog posts</inertia-link>
                         </li>
+                        <li class="nav-item">
+                            <!-- Navbar link-->
+                            <inertia-link class="nav-link"  href="login">Login</inertia-link>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Navbar link-->
+                            <inertia-link class="nav-link"  href="register">Register</inertia-link>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Navbar link-->
+                            <inertia-link class="nav-link"  href="profile">Profile</inertia-link>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Navbar link-->
+                            <inertia-link class="nav-link"  href="register">Logout</inertia-link>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -101,10 +117,23 @@
 
 <script>
 export default {
+    data() {
+        return {
+            auth: '',
+            user: '',
+        }
+    },
+
+    methods:{
+        logout() {
+            localStorage.removeItem('usertoken')
+        }
+    },
+
     mounted() {
-        $('.nav-link').on('click', function () {
-            $(this).toggleClass('active');
-        });
+        EventBus.$on('logged-in', status => {
+            this.auth - status
+        })
     }
 }
 </script>

@@ -1,12 +1,15 @@
 import { App, plugin } from '@inertiajs/inertia-vue'
 import { InertiaProgress } from '@inertiajs/progress';
-import Vue from 'vue'
+import Vue from 'vue';
 
-Vue.use(plugin)
+Vue.use(plugin);
 
 InertiaProgress.init();
 
-const el = document.getElementById('app')
+const el = document.getElementById('app');
+
+window.EventBus = new Vue();
+window.axios = require('axios');
 
 new Vue({
     render: h => h(App, {
