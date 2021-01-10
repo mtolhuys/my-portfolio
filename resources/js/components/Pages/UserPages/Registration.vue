@@ -1,7 +1,7 @@
 <template>
     <section>
         <nav-bar/>
-        <div class="container">
+        <div class="wrapper container">
             <div class="row">
                 <div class="col-md-6 mt-5 mx-auto">
                     <form v-on:submit.prevent="register">
@@ -46,7 +46,8 @@
                     </form>
                 </div>
             </div>
-        </div><br>
+            <div class="push"></div>
+        </div>
         <footer-section/>
     </section>
 </template>
@@ -55,12 +56,12 @@
 import NavBar from "../../NavBar";
 import FooterSection from "../../FooterSection";
 
-export default{
+export default {
     components: {FooterSection, NavBar},
 
     name: "Registration",
 
-    data(){
+    data() {
         return {
             first_name: '',
             last_name: '',
@@ -69,7 +70,7 @@ export default{
         }
     },
 
-    methods:{
+    methods: {
         register() {
             axios.post('/api/register',
                 {

@@ -23,5 +23,5 @@ Route::inertia('/about', 'About');
 Route::inertia('/blog', 'Blog');
 Route::inertia('/login', 'UserPages/Login');
 Route::inertia('/register', 'UserPages/Registration');
-Route::inertia('/profile', 'UserPages/Profile');
+Route::inertia('/admin', 'UserPages/Admin');
 
