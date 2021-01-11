@@ -3,7 +3,7 @@
         <nav-bar/>
 
         <!-- Login form -->
-        <div class="container">
+        <div class="wrapper container">
             <div class="row">
                 <div class="col-md-6 mt-5 mx-auto">
                     <form v-on:submit.prevent="Login">
@@ -23,6 +23,7 @@
                     </form>
                 </div>
             </div>
+            <div class="push"></div>
         </div><br>
 
         <footer-section/>
@@ -75,5 +76,11 @@ export default{
 </script>
 
 <style scoped>
+    .wrapper {
+        min-height: 100%;
 
+        /* Equal to height of footer */
+        /* But also accounting for potential margin-bottom of last child */
+        margin-bottom: 0;
+    }
 </style>

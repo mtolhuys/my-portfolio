@@ -102,7 +102,7 @@
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link"  href="profile">Profile</inertia-link>
+                            <inertia-link class="nav-link"  href="admin">Admin</inertia-link>
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->

@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="skillsContainer">
         <h2 class="text-center">Professional Skill set</h2>
         <div class="skillbar" data-percent="100%">
             <div class="skillbar-title">HTML & CSS</div>
@@ -81,12 +81,4 @@ export default {
         text-transform: uppercase;
     }
 
-    /* CENTERING ONLY */
-    .wrapper {
-        position: relative;
-        width: 80%;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(0%);
-    }
 </style>
