@@ -20,10 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/login', [LoginController::class, 'login']);
-Route::post('/register', [RegisterController::class, 'register']);
-Route::post('login','UserController@login');
-Route::get('profile','UserController@getAuthenticatedUser');
+Route::post('login', [LoginController::class, 'login']);
 
 Route::middleware('auth:api')->get('/user', function(Request $request){
     return $request->user();

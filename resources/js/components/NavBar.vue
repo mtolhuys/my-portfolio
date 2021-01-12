@@ -94,19 +94,11 @@
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link"  href="login">Login</inertia-link>
-                        </li>
-                        <li class="nav-item">
-                            <!-- Navbar link-->
-                            <inertia-link class="nav-link"  href="register">Register</inertia-link>
-                        </li>
-                        <li class="nav-item">
-                            <!-- Navbar link-->
                             <inertia-link class="nav-link"  href="admin">Admin</inertia-link>
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link"  href="register">Logout</inertia-link>
+                            <inertia-link class="nav-link"  href="login">Login</inertia-link>
                         </li>
                     </ul>
                 </div>

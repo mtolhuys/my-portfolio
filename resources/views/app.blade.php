@@ -43,9 +43,9 @@
         flex-shrink: 0;
     }
 </style>
+{{ dump(auth()->user()) }}
 <body class="antialiased d-flex flex-column">
 @inertia
-
 <!-- JavaScript files-->
 <script src="js/jquery/jquery.min.js"></script>
 <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -20,8 +20,7 @@ Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
 
 Route::inertia('/', 'Index');
 Route::inertia('/about', 'About');
-Route::inertia('/blog', 'Blog');
-Route::inertia('/login', 'UserPages/Login');
-Route::inertia('/register', 'UserPages/Registration');
-Route::inertia('/admin', 'UserPages/Admin');
+Route::inertia('/blog', 'Blog')->name('blog');
+Route::inertia('/login', 'UserPages/Login')->name('login');
+Route::inertia('/admin', 'UserPages/Admin')->name('admin');
 

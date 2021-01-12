@@ -37,7 +37,7 @@
                             <editor></editor>
                         </div>
 
-                        <button class="btn btn-lg btn-primary btn-block">Publish</button>
+                        <button class="btn btn-lg btn-outline-info btn-block">Publish Post</button>
                     </form>
                 </div>
             </div>
