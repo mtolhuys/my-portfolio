@@ -3637,6 +3637,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3645,6 +3652,18 @@ __webpack_require__.r(__webpack_exports__);
     NavBar: _NavBar__WEBPACK_IMPORTED_MODULE_0__["default"],
     Editor: _Editor_Editor__WEBPACK_IMPORTED_MODULE_2__["default"],
     FooterSection: _FooterSection__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
+  data: function data() {
+    return {
+      newTag: '',
+      tags: ['Art', 'Travel', 'Food', 'Design']
+    };
+  },
+  methods: {
+    addTag: function addTag() {
+      this.tags.push(this.newTag);
+      this.newTag = '';
+    }
   }
 });
 
@@ -20401,25 +20420,96 @@ var render = function() {
       _c("div", { staticClass: "wrapper container" }, [
         _vm._m(0),
         _vm._v(" "),
-        _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "row", attrs: { id: "admin" } }, [
           _c("div", { staticClass: "col-md-8 mt-5 mx-auto" }, [
-            _c("form", [
-              _vm._m(1),
-              _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
-              _vm._m(3),
-              _vm._v(" "),
-              _vm._m(4),
-              _vm._v(" "),
-              _c("div", { staticClass: "form-group" }, [_c("editor")], 1),
-              _vm._v(" "),
+            _c("div", { staticClass: "form-group" }, [
               _c(
-                "button",
-                { staticClass: "btn btn-lg btn-outline-info btn-block" },
-                [_vm._v("Publish Post")]
-              )
-            ])
+                "div",
+                {
+                  staticClass:
+                    "d-flex align-items-center flex-column flex-sm-row mb-4 p-4 bg-light"
+                },
+                [
+                  _c("h3", { staticClass: "h4 mb-3 mb-sm-0" }, [
+                    _vm._v("Tags")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "ul",
+                    { staticClass: "list-inline mb-0 ml-0 ml-sm-3" },
+                    _vm._l(_vm.tags, function(tag) {
+                      return _c(
+                        "li",
+                        { staticClass: "list-inline-item my-1 mr-2" },
+                        [
+                          _c("span", {
+                            staticClass: "sidebar-tag-link",
+                            domProps: { textContent: _vm._s(tag) }
+                          })
+                        ]
+                      )
+                    }),
+                    0
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "col-8 pr-0" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.newTag,
+                        expression: "newTag"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      id: "tags",
+                      type: "text",
+                      name: "tag",
+                      placeholder: "Add tags"
+                    },
+                    domProps: { value: _vm.newTag },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.newTag = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-4 pl-0" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-md btn-primary btn-block",
+                      on: { click: _vm.addTag }
+                    },
+                    [_vm._v("Add tag")]
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._m(3),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-group" }, [_c("editor")], 1),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "btn btn-lg btn-outline-info btn-block" },
+              [_vm._v("Publish Post")]
+            )
           ])
         ]),
         _vm._v(" "),
@@ -20453,34 +20543,6 @@ var staticRenderFns = [
         staticClass: "form-control-file",
         attrs: { id: "imagePost", type: "file" }
       })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "tags" } }, [_vm._v("Add tags")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-8 pr-0" }, [
-          _c("input", {
-            staticClass: "form-control",
-            attrs: {
-              id: "tags",
-              type: "text",
-              name: "tag",
-              placeholder: "Add tags"
-            }
-          })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-4 pl-0" }, [
-          _c("button", { staticClass: "btn btn-md btn-primary btn-block" }, [
-            _vm._v("Add tag")
-          ])
-        ])
-      ])
     ])
   },
   function() {

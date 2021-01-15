@@ -11188,11 +11188,11 @@ section {
   display: block;
 }
 
-.sidebar-tag-link:hover,
-.sidebar-tag-link:focus {
+.sidebar-tag-link:hover {
   border-color: #ef5285;
   background: #ef5285;
   color: #fff;
+  cursor: default;
   text-decoration: none;
 }
 
