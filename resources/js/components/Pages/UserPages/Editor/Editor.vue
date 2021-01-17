@@ -47,7 +47,7 @@ export default {
         },
         handleSavingContent: function() {
             // You have the content to save
-            console.log(this.content);
+            return this.content;
         }
     }
 };

@@ -3644,6 +3644,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3656,13 +3664,35 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       newTag: '',
-      tags: ['Art', 'Travel', 'Food', 'Design']
+      tags: ['Art', 'Design'],
+      date: '',
+      title: '',
+      image: ''
     };
   },
   methods: {
     addTag: function addTag() {
       this.tags.push(this.newTag);
       this.newTag = '';
+    },
+    onFileChange: function onFileChange(e) {
+      var files = e.target.files || e.dataTransfer.files;
+      if (!files.length) return;
+      this.createImage(files[0]);
+    },
+    createImage: function createImage(file) {
+      var image = new Image();
+      var reader = new FileReader();
+      var vm = this;
+
+      reader.onload = function (e) {
+        vm.image = e.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    },
+    removeImage: function removeImage(e) {
+      this.image = '';
     }
   }
 });
@@ -3725,7 +3755,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     handleSavingContent: function handleSavingContent() {
       // You have the content to save
-      console.log(this.content);
+      return this.content;
     }
   }
 });
@@ -20497,11 +20527,93 @@ var render = function() {
               ])
             ]),
             _vm._v(" "),
-            _vm._m(1),
+            _c("div", { staticClass: "form-group" }, [
+              !_vm.image
+                ? _c("div", [
+                    _c("label", { attrs: { for: "imagePost" } }, [
+                      _vm._v("Upload image")
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      staticClass: "form-control-file",
+                      attrs: { type: "file", id: "imagePost", name: "image" },
+                      on: { change: _vm.onFileChange }
+                    })
+                  ])
+                : _c("div", [
+                    _c("img", { attrs: { src: _vm.image } }),
+                    _vm._v(" "),
+                    _c("button", { on: { click: _vm.removeImage } }, [
+                      _vm._v("Remove image")
+                    ])
+                  ])
+            ]),
             _vm._v(" "),
-            _vm._m(2),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "date" } }, [_vm._v("Date")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.date,
+                    expression: "date"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  id: "date",
+                  type: "date",
+                  name: "date",
+                  placeholder: "Date"
+                },
+                domProps: { value: _vm.date },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.date = $event.target.value
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.date))])
+            ]),
             _vm._v(" "),
-            _vm._m(3),
+            _c("div", { staticClass: "form-group" }, [
+              _c("label", { attrs: { for: "title" } }, [_vm._v("Post title")]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.title,
+                    expression: "title"
+                  }
+                ],
+                staticClass: "form-control",
+                attrs: {
+                  id: "title",
+                  type: "text",
+                  name: "titile",
+                  placeholder: "Post title"
+                },
+                domProps: { value: _vm.title },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.title = $event.target.value
+                  }
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.title))])
+            ]),
             _vm._v(" "),
             _c("div", { staticClass: "form-group" }, [_c("editor")], 1),
             _vm._v(" "),
@@ -20530,50 +20642,6 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-sm-8 mx-auto" }, [
         _c("h1", { staticClass: "text-center" }, [_vm._v("Admin")])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "imagePost" } }, [_vm._v("Upload image")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control-file",
-        attrs: { id: "imagePost", type: "file" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "date" } }, [_vm._v("Date")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: { id: "date", type: "date", name: "date", placeholder: "Date" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group" }, [
-      _c("label", { attrs: { for: "title" } }, [_vm._v("Post title")]),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "form-control",
-        attrs: {
-          id: "title",
-          type: "text",
-          name: "titile",
-          placeholder: "Post title"
-        }
-      })
     ])
   }
 ]

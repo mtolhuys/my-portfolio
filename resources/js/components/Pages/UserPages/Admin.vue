@@ -29,16 +29,24 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="imagePost">Upload image</label>
-                        <input id="imagePost" type="file" class="form-control-file">
+                        <div v-if="!image">
+                            <label for="imagePost">Upload image</label>
+                            <input type="file" @change="onFileChange" id="imagePost"  class="form-control-file" name="image">
+                        </div>
+                        <div v-else>
+                            <img :src="image" />
+                            <button @click="removeImage">Remove image</button>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="date">Date</label>
-                        <input id="date" type="date" class="form-control" name="date" placeholder="Date">
+                        <input v-model="date" id="date" type="date" class="form-control" name="date" placeholder="Date">
+                        <p>{{ date }}</p>
                     </div>
                     <div class="form-group">
                         <label for="title">Post title</label>
-                        <input id="title" type="text" class="form-control" name="titile" placeholder="Post title">
+                        <input v-model="title" id="title" type="text" class="form-control" name="titile" placeholder="Post title">
+                        <p>{{ title }}</p>
                     </div>
                     <div class="form-group">
                         <editor></editor>
@@ -68,14 +76,36 @@ export default{
     data() {
         return {
             newTag: '',
-            tags: ['Art', 'Travel', 'Food', 'Design']
+            tags: ['Art','Design'],
+            date: '',
+            title: '',
+            image: ''
         }
     },
 
     methods: {
         addTag() {
-            this.tags.push(this.newTag)
-            this.newTag = ''
+            this.tags.push(this.newTag);
+            this.newTag = '';
+        },
+        onFileChange(e) {
+            let files = e.target.files || e.dataTransfer.files;
+            if (!files.length)
+                return;
+            this.createImage(files[0]);
+        },
+        createImage(file) {
+            let image = new Image();
+            let reader = new FileReader();
+            let vm = this;
+
+            reader.onload = (e) => {
+                vm.image = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        },
+        removeImage: function (e) {
+            this.image = '';
         }
     }
 }
