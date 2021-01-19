@@ -80,9 +80,7 @@
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link
-                                class="nav-link"
-                                href="/">Home</inertia-link>
+                            <inertia-link class="nav-link active" href="/">Home</inertia-link>
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->

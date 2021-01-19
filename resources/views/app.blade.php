@@ -43,7 +43,6 @@
         flex-shrink: 0;
     }
 </style>
-{{ dump(auth()->user()) }}
 <body class="antialiased d-flex flex-column">
 @inertia
 <!-- JavaScript files-->
