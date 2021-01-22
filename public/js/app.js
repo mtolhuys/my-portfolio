@@ -3211,6 +3211,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Skills"
 });
@@ -3368,6 +3378,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NavBar */ "./resources/js/components/NavBar.vue");
 /* harmony import */ var _FooterSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FooterSection */ "./resources/js/components/FooterSection.vue");
 /* harmony import */ var _Layouts_Skills__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Layouts/Skills */ "./resources/js/components/Layouts/Skills.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -5959,7 +5993,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\r\n    font-size: 24px;\r\n    padding: 5px;\n}\r\n", ""]);
+exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\n    font-size: 24px;\n    padding: 5px;\n}\n", ""]);
 
 // exports
 
@@ -19745,6 +19779,28 @@ var staticRenderFns = [
         })
       ]),
       _vm._v(" "),
+      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "30%" } }, [
+        _c("div", { staticClass: "skillbar-title" }, [_vm._v("Angular")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("30%")]),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "skillbar-bar",
+          staticStyle: { width: "30%" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "30%" } }, [
+        _c("div", { staticClass: "skillbar-title" }, [_vm._v("Laravel")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("30%")]),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "skillbar-bar",
+          staticStyle: { width: "30%" }
+        })
+      ]),
+      _vm._v(" "),
       _c("div", { staticClass: "skillbar", attrs: { "data-percent": "70%" } }, [
         _c("div", { staticClass: "skillbar-title" }, [
           _vm._v("Templating languages Twig & Blade")
@@ -20176,17 +20232,22 @@ var render = function() {
               [
                 _c("p", { staticClass: "lead drop-caps mb-5" }, [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate."
+                    "\n                        I studied art history and design, my goal was to become an art teacher or architect.\n                        I had a lot of fun working on new designs and learning about the different art movements and artistic developments.\n                        Even though I enjoyed experimenting with different mediums and art styles\n                        I did not see myself working full time as a designer so I decided to go in a different direction.\n                    "
                   )
                 ]),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Heading level two")]),
+                _c("h2", [_vm._v("My journey in web development")]),
                 _vm._v(" "),
-                _c("p", { staticClass: "mb-4" }, [
+                _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
+                _vm._v(" "),
+                _c("p", [
                   _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    "My goal is to ultimately become a full stack developer, I want know the ins and outs of building web applications."
                   )
                 ]),
+                _c("br"),
                 _vm._v(" "),
                 _c("skills")
               ],
@@ -20208,7 +20269,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row text-center" }, [
       _c("div", { staticClass: "col-lg-8 mx-auto" }, [
-        _c("h1", [_vm._v("Incredible Graffiti Art Spotted in East Village")])
+        _c("h1", [_vm._v("Front-end Developer with background in Design!")])
       ])
     ])
   },
@@ -20234,11 +20295,108 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "text-small text-muted" }, [
               _vm._v(
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+                "\n                                I grew up in central Mexico and started drawing at a young age. My first drawings were mostly about my dolls and my mom's flowers.\n                            "
               )
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-small text-muted" }, [
+              _vm._v(
+                "At Age ge 14 I moved to California and went to\n                                "
+              ),
+              _c(
+                "a",
+                {
+                  attrs: { href: "https://www.hartnell.edu/", target: "_blank" }
+                },
+                [_vm._v("Hartnell College")]
+              ),
+              _vm._v(" to study design.")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "text-small text-muted" }, [
+              _vm._v(
+                "In 2013 I moved to Den Helder, The Netherlands with my husband and in 2014 started to work in Horeca at a beach restaurant called"
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  attrs: { href: "https://www.paal17.com/", target: "_blank" }
+                },
+                [_vm._v("Paal 17")]
+              ),
+              _vm._v(".")
             ])
           ])
         ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mb-4" }, [
+      _vm._v(
+        "After working 2 years in Horeca I decided I wanted to try a new career path,\n                        I always been interested in computers and after seen my husband busy with code\n                        (he's a tech-lead at "
+      ),
+      _c(
+        "a",
+        {
+          attrs: {
+            href:
+              "https://socialblue.com/get-to-know-our-backend-developer-maarten-tolhuijs/",
+            target: "_blank"
+          }
+        },
+        [_vm._v("Social Blue")]
+      ),
+      _vm._v(
+        "),\n                        I became really interested and found the idea of building my own website very exciting.\n                        I  signed up to a coding bootcamp in Amsterdam called "
+      ),
+      _c(
+        "a",
+        { attrs: { href: "https://codaisseur.com/", target: "_blank" } },
+        [_vm._v("Codaisseur")]
+      ),
+      _vm._v(
+        "\n                        where I learned all the basics about web development."
+      ),
+      _c("br"),
+      _vm._v(
+        "\n                        It wasn't until I got my first job at "
+      ),
+      _c(
+        "a",
+        { attrs: { href: "https://www.growingminds.nl/", target: "_blank" } },
+        [_vm._v("Growing Minds")]
+      ),
+      _vm._v(
+        "\n                        where I fully started to get what Web development is all about\n                    "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v(
+        "At Growing Minds I have learned to build dynamic forms with dynamic content for our multiple clients,\n                        I been able to contribute to the main product which is "
+      ),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://growingminds.nl/products/formulieren-bouwen/",
+            target: "_blank"
+          }
+        },
+        [_vm._v("Form Suite")]
+      ),
+      _vm._v(
+        ".\n                        Recently we started to modernized our stack and have the opportunity to learn new technology and best practices.\n                    "
       )
     ])
   }
@@ -31879,8 +32037,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\deisi\Projects\my-portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\deisi\Projects\my-portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/deisibonilla/Education/my-portfolio/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/deisibonilla/Education/my-portfolio/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

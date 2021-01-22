@@ -16,6 +16,16 @@
             <div class="skill-bar-percent">40%</div>
             <div class="skillbar-bar" style="width: 40%"></div>
         </div>
+        <div class="skillbar" data-percent="30%">
+            <div class="skillbar-title">Angular</div>
+            <div class="skill-bar-percent">30%</div>
+            <div class="skillbar-bar" style="width: 30%"></div>
+        </div>
+        <div class="skillbar" data-percent="30%">
+            <div class="skillbar-title">Laravel</div>
+            <div class="skill-bar-percent">30%</div>
+            <div class="skillbar-bar" style="width: 30%"></div>
+        </div>
         <div class="skillbar" data-percent="70%">
             <div class="skillbar-title">Templating languages Twig & Blade</div>
             <div class="skill-bar-percent">70%</div>
