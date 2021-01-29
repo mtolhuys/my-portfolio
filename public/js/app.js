@@ -20381,7 +20381,7 @@ var staticRenderFns = [
         [_vm._v("Growing Minds")]
       ),
       _vm._v(
-        "\n                        where I fully started to get what Web development is all about\n                    "
+        "\n                        where I fully started to get what web development is all about.\n                    "
       )
     ])
   },

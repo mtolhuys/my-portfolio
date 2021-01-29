@@ -42,7 +42,7 @@
                             I  signed up to a coding bootcamp in Amsterdam called <a href="https://codaisseur.com/" target="_blank">Codaisseur</a>
                             where I learned all the basics about web development.<br>
                             It wasn't until I got my first job at <a href="https://www.growingminds.nl/" target="_blank">Growing Minds</a>
-                            where I fully started to get what Web development is all about.
+                            where I fully started to get what web development is all about.
                         </p>
                         <p>At Growing Minds I have learned to build dynamic forms with dynamic content for our multiple clients,
                             I been able to contribute to the main product which is <a href="https://growingminds.nl/products/formulieren-bouwen/" target="_blank">Form Suite</a>.
