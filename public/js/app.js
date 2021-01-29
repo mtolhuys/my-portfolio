@@ -20250,7 +20250,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "My goal is to ultimately become a full stack developer, I want know the ins and outs of building a web applications."
+                    "My goal is to ultimately become a full stack developer, I want to know the ins and outs of building a web applications."
                   )
                 ]),
                 _c("br"),
@@ -20347,7 +20347,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "mb-4" }, [
       _vm._v(
-        "After working 2 years in Horeca I decided I wanted to try a new career path,\n                        I always been interested in computers and after seen my husband busy with code\n                        (he's a tech-lead at "
+        "After working 2 years in Horeca I decided try a new career path,\n                        I always been interested in computers and after seen my husband busy with code\n                        (he's a tech-lead at "
       ),
       _c(
         "a",
