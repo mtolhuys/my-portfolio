@@ -19779,25 +19779,25 @@ var staticRenderFns = [
         })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "30%" } }, [
+      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "20%" } }, [
         _c("div", { staticClass: "skillbar-title" }, [_vm._v("Angular")]),
         _vm._v(" "),
-        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("30%")]),
+        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("20%")]),
         _vm._v(" "),
         _c("div", {
           staticClass: "skillbar-bar",
-          staticStyle: { width: "30%" }
+          staticStyle: { width: "20%" }
         })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "30%" } }, [
+      _c("div", { staticClass: "skillbar", attrs: { "data-percent": "20%" } }, [
         _c("div", { staticClass: "skillbar-title" }, [_vm._v("Laravel")]),
         _vm._v(" "),
-        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("30%")]),
+        _c("div", { staticClass: "skill-bar-percent" }, [_vm._v("20%")]),
         _vm._v(" "),
         _c("div", {
           staticClass: "skillbar-bar",
-          staticStyle: { width: "30%" }
+          staticStyle: { width: "20%" }
         })
       ]),
       _vm._v(" "),
