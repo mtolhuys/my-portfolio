@@ -20,8 +20,8 @@
                                 <p class="text-small text-muted">
                                     I grew up in central Mexico and started drawing at a young age. My first drawings were mostly about my dolls and my mom's flowers.
                                 </p>
-                                <p class="text-small text-muted">At Age ge 14 I moved to California and went to
-                                    <a href="https://www.hartnell.edu/" target="_blank">Hartnell College</a> to study design.</p>
+                                <p class="text-small text-muted">At Age 14 I moved to California and went to
+                                    <a href="https://www.hartnell.edu/" target="_blank">Hartnell College</a> to study design. I graduated <i>summa cum laude</i> with an A.A. degree</p>
                                 <p class="text-small text-muted">In 2013 I moved to Den Helder, The Netherlands with my husband and in 2014 started to work in Horeca at a beach restaurant called<br>
                                     <a href="https://www.paal17.com/" target="_blank">Paal 17</a>.</p>
                             </div>
@@ -46,9 +46,9 @@
                         </p>
                         <p>At Growing Minds I have learned to build dynamic forms with dynamic content for our multiple clients,
                             I been able to contribute to the main product which is <a href="https://growingminds.nl/products/formulieren-bouwen/" target="_blank">Form Suite</a>.
-                            Recently we started to modernized our stack and have the opportunity to learn new technology and best practices.
+                            Recently we started to modernized our stack and have the opportunity to learn new technologies and best practices.
                         </p>
-                        <p>My goal is to ultimately become a full stack developer, I want know the ins and outs of building web applications.</p><br>
+                        <p>My goal is to ultimately become a full stack developer, I want know the ins and outs of building a web applications.</p><br>
 
                         <!-- Skills category-->
                         <skills/>

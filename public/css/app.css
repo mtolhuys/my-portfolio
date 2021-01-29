@@ -14286,6 +14286,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -14298,5 +14299,11 @@ body {
 .footer,
 .push {
   height: 10px;
+}
+
+.blog,
+.admin,
+.login {
+  display: none;
 }
 

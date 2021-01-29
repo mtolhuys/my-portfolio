@@ -14,7 +14,7 @@ export default {
 
     data() {
         return {
-            content: "<h1>Html For Editor</h1>",
+            content: "",
             customToolbar:
                 [["bold", "italic", "underline"],
                 [{ list: "ordered" }, { list: "bullet" }],

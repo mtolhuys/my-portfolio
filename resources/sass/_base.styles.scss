@@ -5,6 +5,7 @@ section {
 html, body {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 .wrapper {
     min-height: 80%;
@@ -16,4 +17,11 @@ html, body {
 .footer,
 .push {
     height: 10px;
+}
+
+// temporary
+.blog,
+.admin,
+.login {
+    display: none;
 }

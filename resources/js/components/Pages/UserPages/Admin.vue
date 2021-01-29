@@ -52,7 +52,7 @@
                         <editor></editor>
                     </div>
 
-                    <button class="btn btn-lg btn-outline-info btn-block">Publish Post</button>
+                    <button class="btn btn-lg btn-outline-info btn-block">Publish Post</button><br>
 
                 </div>
             </div>

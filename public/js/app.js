@@ -3757,7 +3757,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      content: "<h1>Html For Editor</h1>",
+      content: "",
       customToolbar: [["bold", "italic", "underline"], [{
         list: "ordered"
       }, {
@@ -5993,7 +5993,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\n    font-size: 24px;\n    padding: 5px;\n}\n", ""]);
+exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\r\n    font-size: 24px;\r\n    padding: 5px;\n}\r\n", ""]);
 
 // exports
 
@@ -19890,7 +19890,7 @@ var render = function() {
                   [
                     _c(
                       "inertia-link",
-                      { staticClass: "nav-link active", attrs: { href: "/" } },
+                      { staticClass: "nav-link", attrs: { href: "/" } },
                       [_vm._v("Home")]
                     )
                   ],
@@ -19916,7 +19916,7 @@ var render = function() {
                   [
                     _c(
                       "inertia-link",
-                      { staticClass: "nav-link", attrs: { href: "blog" } },
+                      { staticClass: "nav-link blog", attrs: { href: "blog" } },
                       [_vm._v("Blog posts")]
                     )
                   ],
@@ -19929,7 +19929,10 @@ var render = function() {
                   [
                     _c(
                       "inertia-link",
-                      { staticClass: "nav-link", attrs: { href: "admin" } },
+                      {
+                        staticClass: "nav-link admin",
+                        attrs: { href: "admin" }
+                      },
                       [_vm._v("Admin")]
                     )
                   ],
@@ -19942,7 +19945,10 @@ var render = function() {
                   [
                     _c(
                       "inertia-link",
-                      { staticClass: "nav-link", attrs: { href: "login" } },
+                      {
+                        staticClass: "nav-link login",
+                        attrs: { href: "login" }
+                      },
                       [_vm._v("Login")]
                     )
                   ],
@@ -20244,7 +20250,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", [
                   _vm._v(
-                    "My goal is to ultimately become a full stack developer, I want know the ins and outs of building web applications."
+                    "My goal is to ultimately become a full stack developer, I want know the ins and outs of building a web applications."
                   )
                 ]),
                 _c("br"),
@@ -20301,7 +20307,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "text-small text-muted" }, [
               _vm._v(
-                "At Age ge 14 I moved to California and went to\n                                "
+                "At Age 14 I moved to California and went to\n                                "
               ),
               _c(
                 "a",
@@ -20310,7 +20316,9 @@ var staticRenderFns = [
                 },
                 [_vm._v("Hartnell College")]
               ),
-              _vm._v(" to study design.")
+              _vm._v(" to study design. I graduated "),
+              _c("i", [_vm._v("summa cum laude")]),
+              _vm._v(" with an A.A. degree")
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "text-small text-muted" }, [
@@ -20396,7 +20404,7 @@ var staticRenderFns = [
         [_vm._v("Form Suite")]
       ),
       _vm._v(
-        ".\n                        Recently we started to modernized our stack and have the opportunity to learn new technology and best practices.\n                    "
+        ".\n                        Recently we started to modernized our stack and have the opportunity to learn new technologies and best practices.\n                    "
       )
     ])
   }
@@ -20777,7 +20785,8 @@ var render = function() {
               "button",
               { staticClass: "btn btn-lg btn-outline-info btn-block" },
               [_vm._v("Publish Post")]
-            )
+            ),
+            _c("br")
           ])
         ]),
         _vm._v(" "),
@@ -32037,8 +32046,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/deisibonilla/Education/my-portfolio/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/deisibonilla/Education/my-portfolio/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\deisi\Projects\my-portfolio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\deisi\Projects\my-portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
