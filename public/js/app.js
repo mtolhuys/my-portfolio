@@ -20347,7 +20347,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "mb-4" }, [
       _vm._v(
-        "After working 2 years in Horeca I decided try a new career path,\n                        I always been interested in computers and after seen my husband busy with code\n                        (he's a tech-lead at "
+        "After working 2 years in Horeca I decided to try a new career path,\n                        I always been interested in computers and after seen my husband busy with code\n                        (he's a tech-lead at "
       ),
       _c(
         "a",

@@ -35,7 +35,7 @@
                             I did not see myself working full time as a designer so I decided to go in a different direction.
                         </p>
                         <h2>My journey in web development</h2>
-                        <p class="mb-4">After working 2 years in Horeca I decided try a new career path,
+                        <p class="mb-4">After working 2 years in Horeca I decided to try a new career path,
                             I always been interested in computers and after seen my husband busy with code
                             (he's a tech-lead at <a href="https://socialblue.com/get-to-know-our-backend-developer-maarten-tolhuijs/" target="_blank">Social Blue</a>),
                             I became really interested and found the idea of building my own website very exciting.
