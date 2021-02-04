@@ -49,9 +49,6 @@
                             Recently we started to modernized our stack and have the opportunity to learn new technologies and best practices.
                         </p>
                         <p>My goal is to ultimately become a full stack developer, I want to know the ins and outs of building a web applications.</p><br>
-
-                        <!-- Skills category-->
-                        <skills/>
                     </div>
                 </div>
             </div>

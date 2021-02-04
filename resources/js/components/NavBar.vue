@@ -9,11 +9,6 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
                         <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
@@ -32,10 +27,8 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="images/my-logo.png" alt="D'art logo" width="100">
                 </a>
-                <a class="reset-anchor text-small mb-0 h6 d-none d-lg-block"
-                   href="mailto:deisi.bonilla@gmail.com">
-                    <i class="far fa-envelope mr-2 text-primary"></i>
-                        deisi.bonilla@gmail.com
+                <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </nav>
