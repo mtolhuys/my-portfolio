@@ -60,7 +60,6 @@ export default {
                     this.fields = {}; //Clear input fields.
                     this.loaded = true;
                     this.success = true;
-                    console.log(response, "response");
                 }).catch(error => {
                     this.loaded = true;
                     if (error.response.status === 422) {
