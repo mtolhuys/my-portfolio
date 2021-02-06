@@ -1,9 +1,10 @@
 <template>
     <section>
-        <div class="instagram-section-title d-none d-sm-block">
-            <i class="fab fa-instagram mr-2"></i>
-            Follow on Instagram @deisi_art
-        </div>
+        <a href="https://www.instagram.com/deisi_art/" target="_blank">
+            <div class="instagram-section-title d-none d-sm-block">
+                <i class="fab fa-instagram mr-2"></i>Follow on Instagram @deisi_art
+            </div>
+        </a>
         <insta-feed
             fields="media_url,media_type,caption,permalink"
             container-class="image-container"

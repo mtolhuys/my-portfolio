@@ -15,6 +15,13 @@
 
     export default {
         components: { FooterSection, NavBar, HeaderImage, InstaGallery },
+
+        data() {
+            return {
+
+            }
+        },
+
         mounted() {
             console.log('Component mounted.')
         }

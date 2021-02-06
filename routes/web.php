@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,7 @@ Auth::routes();
 
 Route::get('/', [IndexController::class, 'index']);
 Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
+Route::post('/submit', [ContactController::class, 'submit']);
 
 Route::inertia('/', 'Index');
 Route::inertia('/about', 'About');

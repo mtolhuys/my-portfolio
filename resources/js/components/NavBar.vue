@@ -24,11 +24,14 @@
                         </a>
                     </li>
                 </ul>
-                <a class="navbar-brand" href="index.html">
+
+                <inertia-link class="navbar-brand" href="/">
                     <img src="images/my-logo.png" alt="D'art logo" width="100">
-                </a>
-                <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                </inertia-link>
+
+                <a class="reset-anchor text-small mb-0 h6 d-none d-lg-block" href="#" @click="showModal = true">
+                    <i class="far fa-envelope mr-2 text-primary">
+                    </i>Send me a message!
                 </a>
             </div>
         </nav>
@@ -37,11 +40,7 @@
                 <ul class="list-inline small mb-0 text-dark d-block d-lg-none">
                     <li class="list-inline-item">
                         <a class="reset-anchor"  href="https://github.com/dtolhuijs" target="_blank">
-                            <i class="fab fa-github"></i></a></li>
-                    <li class="list-inline-item">
-                        <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
+                            <i class="fab fa-github"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
@@ -95,15 +94,22 @@
                 </div>
             </div>
         </nav>
+
+        <contact v-if="showModal" @close="showModal = false"/>
     </header>
 </template>
 
 <script>
+import Contact from "./Pages/UserPages/Contact";
+
 export default {
+    components: { Contact },
+
     data() {
         return {
             auth: '',
             user: '',
+            showModal: false
         }
     },
 

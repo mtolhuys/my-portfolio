@@ -48,7 +48,6 @@
                             I been able to contribute to the main product which is <a href="https://growingminds.nl/products/formulieren-bouwen/" target="_blank">Form Suite</a>.
                             Recently we started to modernized our stack and have the opportunity to learn new technologies and best practices.
                         </p>
-                        <p>My goal is to ultimately become a full stack developer, I want to know the ins and outs of building a web applications.</p><br>
                     </div>
                 </div>
             </div>

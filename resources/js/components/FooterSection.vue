@@ -13,11 +13,6 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="reset-anchor" href="https://twitter.com/deisi_bonilla" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
                                 <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                 </a>
