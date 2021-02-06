@@ -26,3 +26,11 @@ Route::inertia('/blog', 'Blog')->name('blog');
 Route::inertia('/login', 'UserPages/Login')->name('login');
 Route::inertia('/admin', 'UserPages/Admin')->name('admin');
 
+if (! app()->environment('production')) {
+    Route::get('/test-mail', function () {
+        return view('mail.contact', [
+            'contact' => \App\Models\Contact::inRandomOrder()->first()
+        ]);
+    });
+}
+

@@ -3799,7 +3799,6 @@ __webpack_require__.r(__webpack_exports__);
 
           _this.loaded = true;
           _this.success = true;
-          console.log(response, "response");
         })["catch"](function (error) {
           _this.loaded = true;
 
