@@ -48,6 +48,9 @@
                             I been able to contribute to the main product which is <a href="https://growingminds.nl/products/formulieren-bouwen/" target="_blank">Form Suite</a>.
                             Recently we started to modernized our stack and have the opportunity to learn new technologies and best practices.
                         </p>
+
+                        <br>
+                        <interest/>
                     </div>
                 </div>
             </div>
@@ -59,10 +62,9 @@
 <script>
 import NavBar from "../NavBar";
 import FooterSection from "../FooterSection";
-import Skills from "../Layouts/Skills";
-
+import Interest from "../Layouts/Interest";
 export default {
-    components: { FooterSection, NavBar, Skills },
+    components: { FooterSection, NavBar, Interest },
 name: "About"
 }
 </script>
