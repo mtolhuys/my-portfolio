@@ -3611,6 +3611,134 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../NavBar */ "./resources/js/components/NavBar.vue");
+/* harmony import */ var _FooterSection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../FooterSection */ "./resources/js/components/FooterSection.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    FooterSection: _FooterSection__WEBPACK_IMPORTED_MODULE_1__["default"],
+    NavBar: _NavBar__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  name: "Resume"
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Pages/UserPages/Admin.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Pages/UserPages/Admin.vue?vue&type=script&lang=js& ***!
@@ -20269,6 +20397,17 @@ var render = function() {
                 _vm._v(" "),
                 _vm._m(3),
                 _vm._v(" "),
+                _c(
+                  "p",
+                  [
+                    _vm._v("Check out my "),
+                    _c("inertia-link", { attrs: { href: "resume" } }, [
+                      _vm._v("Resume")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
                 _c("br"),
                 _vm._v(" "),
                 _c("interest")
@@ -20610,6 +20749,192 @@ var staticRenderFns = [
         )
       ]
     )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "resume-content" },
+    [_c("nav-bar"), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("footer-section")],
+    1
+  )
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "py-5" }, [
+      _c("div", { staticClass: "container py-4" }, [
+        _c("section", { staticClass: "resume", attrs: { id: "resume" } }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "section-title" }, [
+              _c("h2", [_vm._v("Resume")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-6" }, [
+                _c("h3", { staticClass: "resume-title" }, [
+                  _vm._v("Education")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("ROC Kop van Noord-Holland")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("2016 - 2018")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("Diploma Staatsexamen NT2")])]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("NT2 level Nederlands taal cursussen")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Codaisseur")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("June 2016 - Aug 2016")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("Coding Bootcamp")])]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Web Developer Bootcamp of 6 weeks. Worked on weekly projects in teams, and one real world project for a company invited by Codaisseur.\n                                    My favorite part of the Bootcamp was working with Ruby. It was really fun and exciting to built web apps and integrating services like Devise and Cloudinary.\n                                    Switching over to React.js/Javascript was a bit uncomfortable at first but as I did more with it, the syntax became more familiar."
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Treehouse")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("2015 - 2016")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("Online courses")])]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Learned the basics of web design")])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Associate of Arts Degree")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("2009 - 2012")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("em", [_vm._v("Hartnell College, Salinas, CA")])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Studied Art History and Design")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-6" }, [
+                _c("h3", { staticClass: "resume-title" }, [
+                  _vm._v("Professional Experience")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Front-end Developer")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("Dec 2017 - Present")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("Growing Minds, Amsterdam")])]),
+                  _vm._v(" "),
+                  _c("span", [
+                    _c("ul", [
+                      _c("li", [
+                        _vm._v(
+                          "Build subscribe and donation forms for charities"
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _vm._v("Contribute to main product Form Suite")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Web Designer / Email developer")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("July 2017 - Nov 2017")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("AmigoAmigo, Amsterdam")])]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                                    I work on the creation of email creatives, banners and landing pages for commercial campaigns.\n                                    I'm responsible for the creation and otimization of emal creatives and templates.\n                                    Every campaign is made with the goal of increasing the conversion/revenue rate.\n                                "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Web Designer / Email developer")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("March 2017 - May 2017")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("Kobi digital, Amsterdam")])]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                                    I worked on the creation of email creatives, banners and landing pages for commercial campaigns.\n                                    I was responsible for the creation and optimization of e-mail creatives, templates and newsletters.\n                                    Every campaign is made with the aim of increasing the conversion/revenue as well as deliverability per title.\n                                "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Junior developer Intership")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("Sept 2016 - Feb 2017")]),
+                  _vm._v(" "),
+                  _c("p", [_c("em", [_vm._v("AppAtSchool, Alkmaar")])]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                                    In this internship I worked mostly with google tools which required me to write scripts and use the\n                                    AppAtSchool platform to build and expand the functionality of forms and spreadsheets.\n                                "
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "resume-item" }, [
+                  _c("h4", [_vm._v("Horeca Medewerker")]),
+                  _vm._v(" "),
+                  _c("h5", [_vm._v("June 2014 - May 2016")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _c("em", [_vm._v("Strandpaviljoen Paal 17, Texel")])
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n                                    I started working in Paal 17 in the summer of 2014, it was my first job in the Netherlands.\n                                    And I was very happy to work in a very nice area with friendly people.\n                                    I got to meet people from all over the world and get better acquaintance with dutch work culture and society.\n                                "
+                    )
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -31473,6 +31798,8 @@ var map = {
 	"./Index.vue": "./resources/js/components/Pages/Index.vue",
 	"./InstaGallery": "./resources/js/components/Pages/InstaGallery.vue",
 	"./InstaGallery.vue": "./resources/js/components/Pages/InstaGallery.vue",
+	"./Resume": "./resources/js/components/Pages/Resume.vue",
+	"./Resume.vue": "./resources/js/components/Pages/Resume.vue",
 	"./UserPages/Admin": "./resources/js/components/Pages/UserPages/Admin.vue",
 	"./UserPages/Admin.vue": "./resources/js/components/Pages/UserPages/Admin.vue",
 	"./UserPages/Contact": "./resources/js/components/Pages/UserPages/Contact.vue",
@@ -31812,6 +32139,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InstaGallery_vue_vue_type_template_id_2dc205a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_InstaGallery_vue_vue_type_template_id_2dc205a6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Resume.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/Pages/Resume.vue ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Resume.vue?vue&type=template&id=411558e3&scoped=true& */ "./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true&");
+/* harmony import */ var _Resume_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Resume.vue?vue&type=script&lang=js& */ "./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Resume_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "411558e3",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Pages/Resume.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Resume_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Resume.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Pages/Resume.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Resume_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true& ***!
+  \*********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Resume.vue?vue&type=template&id=411558e3&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Pages/Resume.vue?vue&type=template&id=411558e3&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Resume_vue_vue_type_template_id_411558e3_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

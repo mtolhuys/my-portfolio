@@ -23,6 +23,7 @@ Route::post('/submit', [ContactController::class, 'submit']);
 Route::inertia('/', 'Index');
 Route::inertia('/about', 'About');
 Route::inertia('/blog', 'Blog')->name('blog');
+Route::inertia('/resume', 'Resume')->name('resume');
 Route::inertia('/login', 'UserPages/Login')->name('login');
 Route::inertia('/admin', 'UserPages/Admin')->name('admin');
 
