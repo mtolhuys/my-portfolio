@@ -3915,6 +3915,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -21193,6 +21195,7 @@ var render = function() {
               _c(
                 "form",
                 {
+                  attrs: { action: "?", method: "post" },
                   on: {
                     submit: function($event) {
                       $event.preventDefault()
@@ -21313,6 +21316,13 @@ var render = function() {
                         ])
                       : _vm._e()
                   ]),
+                  _vm._v(" "),
+                  _c("div", {
+                    staticClass: "g-recaptcha",
+                    attrs: {
+                      "data-sitekey": "6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"
+                    }
+                  }),
                   _vm._v(" "),
                   _c(
                     "button",

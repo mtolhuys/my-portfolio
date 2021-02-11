@@ -4,7 +4,7 @@
             <div class="modal-mask">
                 <div class="modal-wrapper">
                     <div class="modal-container">
-                        <form @submit.prevent="submit">
+                        <form @submit.prevent="submit" action="?" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
                                 <input v-model="fields.name" id="name" type="text" class="form-control" name="name" placeholder="Your Name">
@@ -22,6 +22,8 @@
                                 <textarea v-model="fields.message" id="message" type="message" class="form-control" name="message" placeholder="Your Message"></textarea>
                                 <div v-if="errors && errors.message" class="text-danger">{{ errors.message[0] }}</div>
                             </div>
+
+                            <div class="g-recaptcha" data-sitekey="6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"></div>
 
                             <button class="btn btn-primary" @click="$emit('close')">
                                 <i class="fas fa-times"></i>
