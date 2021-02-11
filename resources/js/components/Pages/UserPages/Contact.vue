@@ -23,8 +23,6 @@
                                 <div v-if="errors && errors.message" class="text-danger">{{ errors.message[0] }}</div>
                             </div>
 
-                            <div class="g-recaptcha" data-sitekey="6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"></div>
-
                             <button class="btn btn-primary" @click="$emit('close')">
                                 <i class="fas fa-times"></i>
                             </button>
@@ -34,6 +32,7 @@
                             <div v-if="success" class="alert alert-success mt-3">
                                 Message sent!
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"></div>
                         </form>
                     </div>
                 </div>

@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
           integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}"></link>
+    <script src="{{ mix('/js/app.js') }}" defer></script>
     <!-- Recaptcha-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Recaptcha-->
-    <link rel="stylesheet" href="{{ mix('/css/app.css') }}"></link>
-    <script src="{{ mix('/js/app.js') }}" defer></script>
 </head>
 <style rel="stylesheet">
     /* Sticky Footer Classes */
