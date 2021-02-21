@@ -39,7 +39,7 @@ export default {
         NavBar,
         Tags,
         BlogPagination,
-        Post
+        Post,
     },
 }
 </script>

@@ -18,7 +18,7 @@
             FooterSection,
             NavBar,
             HeaderImage,
-            InstaGallery
+            InstaGallery,
         },
     }
 </script>

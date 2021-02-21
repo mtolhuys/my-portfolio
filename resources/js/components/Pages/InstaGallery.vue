@@ -34,7 +34,7 @@
             components: {
                 FooterSection,
                 NavBar,
-                InstaFeed
+                InstaFeed,
             }
         }
 </script>

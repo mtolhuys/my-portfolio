@@ -112,7 +112,7 @@
 
         components: {
             FooterSection,
-            NavBar
+            NavBar,
         },
     }
 </script>

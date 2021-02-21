@@ -70,7 +70,7 @@
         components: {
             FooterSection,
             NavBar,
-            Interest
+            Interest,
         }
     }
 </script>

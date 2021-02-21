@@ -72,7 +72,7 @@ export default{
     components: {
         NavBar,
         Editor,
-        FooterSection
+        FooterSection,
     },
 
     data() {

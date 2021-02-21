@@ -45,7 +45,7 @@ export default {
 
     components: {
         FooterSection,
-        NavBar
+        NavBar,
     },
 
     data() {
