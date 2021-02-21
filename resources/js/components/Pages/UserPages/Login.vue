@@ -37,12 +37,16 @@
 
 <script>
 
-import NavBar from "../../NavBar";
-import FooterSection from "../../FooterSection";
+    import NavBar from "../../NavBar";
+    import FooterSection from "../../FooterSection";
 
 export default {
-    components: {FooterSection, NavBar},
     name: "Login",
+
+    components: {
+        FooterSection,
+        NavBar
+    },
 
     data() {
 

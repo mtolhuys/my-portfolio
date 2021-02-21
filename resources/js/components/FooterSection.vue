@@ -44,9 +44,3 @@
         </div>
     </footer>
 </template>
-
-<script>
-export default {
-    mounted() {}
-}
-</script>

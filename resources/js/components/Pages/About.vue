@@ -60,15 +60,18 @@
 </template>
 
 <script>
-import NavBar from "../NavBar";
-import FooterSection from "../FooterSection";
-import Interest from "../Layouts/Interest";
-export default {
-    components: { FooterSection, NavBar, Interest },
-name: "About"
-}
+    import NavBar from "../NavBar";
+    import FooterSection from "../FooterSection";
+    import Interest from "../Layouts/Interest";
+
+    export default {
+        name: "About",
+
+        components: {
+            FooterSection,
+            NavBar,
+            Interest
+        }
+    }
 </script>
 
-<style scoped>
-
-</style>

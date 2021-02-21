@@ -26,16 +26,17 @@
 </template>
 
 <script>
-import NavBar from "../NavBar";
-import FooterSection from "../FooterSection";
-import InstaFeed from "../InstaFeed";
+    import NavBar from "../NavBar";
+    import FooterSection from "../FooterSection";
+    import InstaFeed from "../InstaFeed";
 
-    export default {
-        components: {FooterSection, NavBar, InstaFeed},
-        mounted() {
-            console.log('Component mounted.')
+        export default {
+            components: {
+                FooterSection,
+                NavBar,
+                InstaFeed
+            }
         }
-    }
 </script>
 <style scoped>
     img.img-fluid {

@@ -104,15 +104,15 @@
 </template>
 
 <script>
-import NavBar from "../NavBar";
-import FooterSection from "../FooterSection";
+    import NavBar from "../NavBar";
+    import FooterSection from "../FooterSection";
 
-export default {
-    components: { FooterSection, NavBar },
-name: "Resume"
-}
+    export default {
+        name: "Resume",
+
+        components: {
+            FooterSection,
+            NavBar
+        },
+    }
 </script>
-
-<style scoped>
-
-</style>

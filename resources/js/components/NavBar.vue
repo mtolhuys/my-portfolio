@@ -113,7 +113,9 @@
 import Contact from "./Pages/UserPages/Contact";
 
 export default {
-    components: { Contact },
+    components: {
+        Contact
+    },
 
     data() {
         return {
