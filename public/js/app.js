@@ -3007,6 +3007,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {}
 });
@@ -3239,6 +3244,16 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Pages_UserPages_Contact__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Pages/UserPages/Contact */ "./resources/js/components/Pages/UserPages/Contact.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -19745,6 +19760,20 @@ var staticRenderFns = [
                           {
                             staticClass: "reset-anchor",
                             attrs: {
+                              href: "https://www.linkedin.com/in/deisibonilla/",
+                              target: "_blank"
+                            }
+                          },
+                          [_c("i", { staticClass: "fab fa-linkedin" })]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "list-inline-item" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "reset-anchor",
+                            attrs: {
                               href: "https://www.instagram.com/deisi_art/",
                               target: "_blank"
                             }
@@ -19759,11 +19788,11 @@ var staticRenderFns = [
                           {
                             staticClass: "reset-anchor",
                             attrs: {
-                              href: "https://www.linkedin.com/in/deisibonilla/",
+                              href: "https://www.flickr.com/photos/deisib/",
                               target: "_blank"
                             }
                           },
-                          [_c("i", { staticClass: "fab fa-linkedin" })]
+                          [_c("i", { staticClass: "fab fa-flickr" })]
                         )
                       ]),
                       _vm._v(" "),
@@ -20219,6 +20248,20 @@ var staticRenderFns = [
             {
               staticClass: "reset-anchor",
               attrs: {
+                href: "https://www.linkedin.com/in/deisibonilla/",
+                target: "_blank"
+              }
+            },
+            [_c("i", { staticClass: "fab fa-linkedin" })]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "reset-anchor",
+              attrs: {
                 href: "https://www.instagram.com/deisi_art/",
                 target: "_blank"
               }
@@ -20233,11 +20276,11 @@ var staticRenderFns = [
             {
               staticClass: "reset-anchor",
               attrs: {
-                href: "https://www.linkedin.com/in/deisibonilla/",
+                href: "https://www.flickr.com/photos/deisib/",
                 target: "_blank"
               }
             },
-            [_c("i", { staticClass: "fab fa-linkedin" })]
+            [_c("i", { staticClass: "fab fa-flickr" })]
           )
         ]),
         _vm._v(" "),
@@ -20283,6 +20326,20 @@ var staticRenderFns = [
             {
               staticClass: "reset-anchor",
               attrs: {
+                href: "https://www.linkedin.com/in/deisibonilla/",
+                target: "_blank"
+              }
+            },
+            [_c("i", { staticClass: "fab fa-linkedin" })]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-inline-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "reset-anchor",
+              attrs: {
                 href: "https://www.instagram.com/deisi_art/",
                 target: "_blank"
               }
@@ -20297,11 +20354,11 @@ var staticRenderFns = [
             {
               staticClass: "reset-anchor",
               attrs: {
-                href: "https://www.linkedin.com/in/deisibonilla/",
+                href: "https://www.flickr.com/photos/deisib/",
                 target: "_blank"
               }
             },
-            [_c("i", { staticClass: "fab fa-linkedin" })]
+            [_c("i", { staticClass: "fab fa-flickr" })]
           )
         ]),
         _vm._v(" "),

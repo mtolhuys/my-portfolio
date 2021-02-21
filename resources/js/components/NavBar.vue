@@ -9,13 +9,18 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
+                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
                         <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                        <a class="reset-anchor" href="https://www.flickr.com/photos/deisib/" target="_blank">
+                            <i class="fab fa-flickr"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
@@ -43,13 +48,18 @@
                             <i class="fab fa-github"></i></a>
                     </li>
                     <li class="list-inline-item">
+                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
                         <a class="reset-anchor" href="https://www.instagram.com/deisi_art/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="reset-anchor" href="https://www.linkedin.com/in/deisibonilla/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                        <a class="reset-anchor" href="https://www.flickr.com/photos/deisib/" target="_blank">
+                            <i class="fab fa-flickr"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
