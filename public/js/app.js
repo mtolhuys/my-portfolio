@@ -3044,20 +3044,22 @@ __webpack_require__.r(__webpack_exports__);
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('insta-feed').then(function (response) {
         _this.loading = false;
 
-        if (response.status === 400) {
+        if (response.status !== 200) {
           _this.error = response.error.message;
+          return;
         }
 
-        if (response.status === 200) {
-          for (var n in response.data.data) {
-            if (_this.mediatypes.includes(response.data.data[n].media_type)) {
-              _this.feeds.push(response.data.data[n]);
-            }
+        response.data.data.slice(0, _this.count).forEach(function (picture) {
+          if (_this.correctMediaType(picture)) {
+            _this.feeds.push(picture);
           }
-        }
+        });
       })["catch"](function (error) {
         throw error;
       });
+    },
+    correctMediaType: function correctMediaType(picture) {
+      return picture.hasOwnProperty('media_type') && this.mediatypes.includes(picture.media_type);
     }
   }
 });
@@ -6153,7 +6155,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\n    font-size: 24px;\n    padding: 5px;\n}\n", ""]);
+exports.push([module.i, "\n.fab[data-v-5a0d4be8], .fas[data-v-5a0d4be8] {\r\n    font-size: 24px;\r\n    padding: 5px;\n}\r\n", ""]);
 
 // exports
 
@@ -6191,7 +6193,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.wrapper[data-v-6034a6ad] {\n    min-height: 100%;\n\n    /* Equal to height of footer */\n    /* But also accounting for potential margin-bottom of last child */\n    margin-bottom: 0;\n}\n", ""]);
+exports.push([module.i, "\n.wrapper[data-v-6034a6ad] {\r\n    min-height: 100%;\r\n\r\n    /* Equal to height of footer */\r\n    /* But also accounting for potential margin-bottom of last child */\r\n    margin-bottom: 0;\n}\r\n", ""]);
 
 // exports
 

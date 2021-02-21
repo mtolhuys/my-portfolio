@@ -25,7 +25,7 @@
 </style>
 
 <script>
-import axios from 'axios'
+import axios from 'axios';
 
 export default {
     props: {
@@ -36,6 +36,7 @@ export default {
             type: String,
             required: true
         },
+
         /*
          * Number of posts rendered.
          */
@@ -43,6 +44,7 @@ export default {
             type: Number,
             default: 6
         },
+
         /*
          * Kinds of media to filter (Can be IMAGE, VIDEO, or CAROUSEL_ALBUM.).
          */
@@ -50,6 +52,7 @@ export default {
             type: Array,
             required: true
         },
+
         // Class for container div
         containerClass: {
             type: String,
@@ -57,34 +60,45 @@ export default {
             required: false
         }
     },
+
     data: () => ({
         error: null,
         loading: false,
-        feeds: []
+        feeds: [],
     }),
+
     mounted () {
-        this.getUserFeed()
+        this.getUserFeed();
     },
+
     methods: {
-        getUserFeed () {
-            this.loading = true
+        getUserFeed: function () {
+            this.loading = true;
+
             axios.get('insta-feed')
                 .then((response) => {
-                    this.loading = false
-                    if (response.status === 400) {
-                        this.error = response.error.message
+                    this.loading = false;
+
+                    if (response.status !== 200) {
+                        this.error = response.error.message;
+
+                        return;
                     }
-                    if (response.status === 200) {
-                        for (const n in response.data.data) {
-                            if (this.mediatypes.includes(response.data.data[n].media_type)) {
-                                this.feeds.push(response.data.data[n]);
-                            }
+
+                    response.data.data.slice(0, this.count).forEach(picture => {
+                        if (this.correctMediaType(picture)) {
+                            this.feeds.push(picture);
                         }
-                    }
+                    });
                 })
                 .catch((error) => {
                     throw error
                 })
+        },
+
+        correctMediaType(picture) {
+            return picture.hasOwnProperty('media_type')
+                && this.mediatypes.includes(picture.media_type);
         }
     }
 }
