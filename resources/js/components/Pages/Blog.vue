@@ -25,15 +25,22 @@
 </template>
 
 <script>
-import NavBar from "../NavBar";
-import FooterSection from "../FooterSection";
-import Tags from "../PostComponents/Tags";
-import BlogPagination from "../PostComponents/BlogPagination";
-import Post from "../PostComponents/Post";
+    import NavBar from "../NavBar";
+    import FooterSection from "../FooterSection";
+    import Tags from "../PostComponents/Tags";
+    import BlogPagination from "../PostComponents/BlogPagination";
+    import Post from "../PostComponents/Post";
 
 export default {
-    components: { FooterSection, NavBar, Tags, BlogPagination, Post },
-    name: "Blog"
+    name: "Blog",
+
+    components: {
+        FooterSection,
+        NavBar,
+        Tags,
+        BlogPagination,
+        Post
+    },
 }
 </script>
 

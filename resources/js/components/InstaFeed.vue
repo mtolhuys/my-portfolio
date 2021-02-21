@@ -76,10 +76,7 @@ export default {
                     if (response.status === 200) {
                         for (const n in response.data.data) {
                             if (this.mediatypes.includes(response.data.data[n].media_type)) {
-                                this.feeds.push(response.data.data[n])
-                                if (this.feeds.length >= this.count) {
-                                    return
-                                }
+                                this.feeds.push(response.data.data[n]);
                             }
                         }
                     }

@@ -63,15 +63,17 @@
 
 </template>
 
-
 <script>
-
-import NavBar from "../../NavBar";
-import FooterSection from "../../FooterSection";
-import Editor from "./Editor/Editor";
+    import NavBar from "../../NavBar";
+    import FooterSection from "../../FooterSection";
+    import Editor from "./Editor/Editor";
 
 export default{
-    components: {NavBar, Editor, FooterSection},
+    components: {
+        NavBar,
+        Editor,
+        FooterSection
+    },
 
     data() {
         return {

@@ -14,17 +14,12 @@
     import InstaGallery from "./InstaGallery";
 
     export default {
-        components: { FooterSection, NavBar, HeaderImage, InstaGallery },
-
-        data() {
-            return {
-
-            }
+        components: {
+            FooterSection,
+            NavBar,
+            HeaderImage,
+            InstaGallery
         },
-
-        mounted() {
-            console.log('Component mounted.')
-        }
     }
 </script>
 
