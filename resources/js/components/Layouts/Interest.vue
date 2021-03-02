@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box">
-                        <i class="fas fa-paint-brush""></i>
+                        <i class="fas fa-paint-brush"></i>
                         <h3>Art</h3>
                     </div>
                 </div>
@@ -42,6 +42,12 @@
                     <div class="icon-box">
                         <i class="fas fa-gamepad"></i>
                         <h3>Gaming</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-4">
+                    <div class="icon-box">
+                        <i class="fa fa-camera-retro"></i>
+                        <h3>Photography</h3>
                     </div>
                 </div>
             </div>

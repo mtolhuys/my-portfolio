@@ -3164,6 +3164,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Interest"
 });
@@ -19848,7 +19854,9 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-6 mx-auto text-center" }, [
-            _c("h1", { staticClass: "mb-4" }, [_vm._v("Hola! Ik ben Deisi.")]),
+            _c("h1", { staticClass: "mb-4" }, [
+              _vm._v("Hi! My name is Deisi.")
+            ]),
             _vm._v(" "),
             _c("h3", [_vm._v("l'art pour l'art... Art for Art's sake!")]),
             _vm._v(" "),
@@ -19860,7 +19868,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "text-muted" }, [
               _vm._v(
-                "\n                    I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw.\n                    I started this blog as a way to showcase and share tips related to Art, but also to improve my programming skills.\n                 "
+                "\n                    I Work as a Front-end developer at Growing Minds. During my spare time I like to read and draw and take pictures of the Dutch landscape and the places I visit.\n                    I started this blog as a way to showcase and share tips related to Art and Photography.\n                 "
               )
             ])
           ])
@@ -19950,6 +19958,14 @@ var staticRenderFns = [
               _c("i", { staticClass: "fas fa-gamepad" }),
               _vm._v(" "),
               _c("h3", [_vm._v("Gaming")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-4 mt-4" }, [
+            _c("div", { staticClass: "icon-box" }, [
+              _c("i", { staticClass: "fa fa-camera-retro" }),
+              _vm._v(" "),
+              _c("h3", [_vm._v("Photography")])
             ])
           ])
         ])
