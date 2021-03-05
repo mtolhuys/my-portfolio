@@ -27,6 +27,7 @@ class ContactFormRequest extends FormRequest
             'name' => 'required|string',
             'email' => 'required|email',
             'message' => 'required',
+            'recaptcha_token' => 'required', new ReCaptchaRule($this->recaptcha_token)
         ];
     }
 }

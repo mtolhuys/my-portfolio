@@ -32,7 +32,10 @@
                             <div v-if="success" class="alert alert-success mt-3">
                                 Message sent!
                             </div>
-                            <div class="g-recaptcha" data-sitekey="6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"></div>
+
+                            <label for="recaptcha_token"></label>
+                            <input v-model="fields.recaptcha_token" type="hidden" name="recaptcha_token" id="recaptcha_token">
+                            <div v-if="errors && errors.recaptcha_token" class="text-danger">{{ errors.recaptcha_token[0] }}</div>
                         </form>
                     </div>
                 </div>

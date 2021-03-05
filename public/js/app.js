@@ -3863,6 +3863,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -21345,12 +21348,42 @@ var render = function() {
                       ])
                     : _vm._e(),
                   _vm._v(" "),
-                  _c("div", {
-                    staticClass: "g-recaptcha",
+                  _c("label", { attrs: { for: "recaptcha_token" } }),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.fields.recaptcha_token,
+                        expression: "fields.recaptcha_token"
+                      }
+                    ],
                     attrs: {
-                      "data-sitekey": "6LcwDVQaAAAAALEbtoyVyjx5s127fv9fHT2UqDGy"
+                      type: "hidden",
+                      name: "recaptcha_token",
+                      id: "recaptcha_token"
+                    },
+                    domProps: { value: _vm.fields.recaptcha_token },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(
+                          _vm.fields,
+                          "recaptcha_token",
+                          $event.target.value
+                        )
+                      }
                     }
-                  })
+                  }),
+                  _vm._v(" "),
+                  _vm.errors && _vm.errors.recaptcha_token
+                    ? _c("div", { staticClass: "text-danger" }, [
+                        _vm._v(_vm._s(_vm.errors.recaptcha_token[0]))
+                      ])
+                    : _vm._e()
                 ]
               )
             ])
