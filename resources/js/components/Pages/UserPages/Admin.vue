@@ -64,17 +64,15 @@
 </template>
 
 <script>
-    import NavBar from "../../NavBar";
-    import FooterSection from "../../FooterSection";
-    import Editor from "./Editor/Editor";
-
+import NavBar from "../../NavBar";
+import FooterSection from "../../FooterSection";
+import Editor from "./Editor/Editor";
 export default{
     components: {
         NavBar,
         Editor,
-        FooterSection
+        FooterSection,
     },
-
     data() {
         return {
             newTag: '',
@@ -84,7 +82,6 @@ export default{
             image: ''
         }
     },
-
     methods: {
         addTag() {
             this.tags.push(this.newTag);
@@ -100,7 +97,6 @@ export default{
             let image = new Image();
             let reader = new FileReader();
             let vm = this;
-
             reader.onload = (e) => {
                 vm.image = e.target.result;
             };

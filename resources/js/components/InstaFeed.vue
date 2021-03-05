@@ -5,12 +5,12 @@
         <div class="row align-items-start">
             <div class="container-fluid px-0">
                 <div class="row">
-            <slot
-                v-for="(feed, index) in feeds"
-                :index="index"
-                :feed="feed"
-                name="feeds"
-            />
+                    <slot
+                        v-for="(feed, index) in feeds"
+                        :index="index"
+                        :feed="feed"
+                        name="feeds"
+                    />
                 </div>
             </div>
         </div>
@@ -19,13 +19,13 @@
 </template>
 
 <style>
-    .align-items-start {
-        margin: 0 auto;
-    }
+.align-items-start {
+    margin: 0 auto;
+}
 </style>
 
 <script>
-import axios from 'axios'
+import axios from 'axios';
 export default {
     props: {
         /*
@@ -59,32 +59,36 @@ export default {
     data: () => ({
         error: null,
         loading: false,
-        feeds: []
+        feeds: [],
     }),
     mounted () {
-        this.getUserFeed()
+        this.getUserFeed();
     },
     methods: {
-        getUserFeed () {
-            this.loading = true
+        getUserFeed: function () {
+            this.loading = true;
             axios.get('insta-feed')
                 .then((response) => {
-                    this.loading = false
-                    if (response.status === 400) {
-                        this.error = response.error.message
+                    this.loading = false;
+                    if (response.status !== 200) {
+                        this.error = response.error.message;
+                        return;
                     }
-                    if (response.status === 200) {
-                        for (const n in response.data.data) {
-                            if (this.mediatypes.includes(response.data.data[n].media_type)) {
-                                this.feeds.push(response.data.data[n]);
-                            }
+                    response.data.data.slice(0, this.count).forEach(picture => {
+                        if (this.correctMediaType(picture)) {
+                            this.feeds.push(picture);
                         }
-                    }
+                    });
                 })
                 .catch((error) => {
                     throw error
                 })
+        },
+        correctMediaType(picture) {
+            return picture.hasOwnProperty('media_type')
+                && this.mediatypes.includes(picture.media_type);
         }
     }
 }
 </script>
+
