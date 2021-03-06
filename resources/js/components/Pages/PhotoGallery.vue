@@ -71,7 +71,7 @@
         }
     }
 </script>
-<style type="text/css">
+<style scoped type="text/css">
 :root{
     --color: #ef5285;
     --spacing: 1rem;
@@ -100,8 +100,6 @@ h1, button{
     font-size: var(--fontsize);
     line-height: 1.2;
     font-weight: 300;
-    border: 4px solid var(--color);
-    border-width: 4px 0;
 }
 img{
     max-width: 100%;
