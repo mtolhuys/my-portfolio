@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy&amp;display=swap">
     <!-- Lightbox-->
     <link rel="stylesheet" href="js/lightbox2/css/lightbox.min.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.ico">
