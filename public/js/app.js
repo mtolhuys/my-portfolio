@@ -20935,7 +20935,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm.grams.length > 0
+      _vm.grams.length
         ? _vm._l(_vm.grams, function(gram, index) {
             return _c("div", [
               _c(

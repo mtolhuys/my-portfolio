@@ -2,7 +2,7 @@
     <div class="about-content">
         <nav-bar/>
         <h1><a :href="instaPage">@artsy_capptures on instagram</a></h1>
-        <template v-if="grams.length > 0">
+        <template v-if="grams.length">
             <div v-for="(gram, index) in grams">
                 <a href="https://www.instagram.com/p/BjXplo-ASdr/">
                     <img :src="gram.media_url" :alt="gram.text" />
