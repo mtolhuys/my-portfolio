@@ -27,6 +27,7 @@
         "@inertiajs/inertia": "^0.8.2",
         "@inertiajs/inertia-vue": "^0.5.4",
         "@inertiajs/progress": "^0.2.4",
+        "jsonp": "^0.2.1",
         "vue-instagram": "^3.0.0",
         "vue2-editor": "^2.10.2"
     }

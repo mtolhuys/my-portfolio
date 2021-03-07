@@ -32,6 +32,7 @@ return [
 
     'instagram' => [
         'token' => env('INSTAGRAM_TOKEN'),
+        'photo-token' => env('PHOTO_TOKEN'),
     ],
 
 ];

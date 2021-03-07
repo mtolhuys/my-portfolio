@@ -32,4 +32,21 @@ class IndexController extends Controller
             return [];
         }
     }
+
+    public function photoFeed()
+    {
+        try {
+            if (app()->environment('production')) {
+                return Http::get('https://graph.instagram.com/me/media', [
+                    'access_token' => config('services.instagram.photo-token'),
+                    'fields' => \request('fields', 'media_url,media_type,caption,permalink'),
+                ])->json();
+            } else {
+                return File::get(base_path('tests/Mocks/insta-feed.json'));
+            }
+        } catch (RequestException $e) {
+            //TODO: Log this when it happens!
+            return [];
+        }
+    }
 }

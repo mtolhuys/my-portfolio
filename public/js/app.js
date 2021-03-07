@@ -3602,8 +3602,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      access_token: "IGQVJXQ1Y0aDdjTm95ZAHpacktOVDRLS1BOSmtPX25hQ3VMOTd1NmxCeWRRNGRiWml0MEpDekh0SEkzU3FaLUNNZAGNNTVdHVWNISjJyalY4bDItR3V4dm9UNkktbDNNd0pFWnphNkloNGdZAcmRyLWtwTgZDZD",
-      url: "https://api.instagram.com/v1/users/self/media/recent/",
       username: "",
       grams: [],
       next_url: "",
@@ -3611,7 +3609,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   computed: {
-    instapage: function instapage() {
+    instaPage: function instaPage() {
       return 'https://www.instagram.com/' + this.username;
     }
   },
@@ -3619,9 +3617,10 @@ __webpack_require__.r(__webpack_exports__);
     getGrams: function getGrams() {
       var _this = this;
 
-      axios.get(this.url + "?access_token=" + this.access_token).then(function (_ref) {
+      axios.get('photo-feed').then(function (_ref) {
         var data = _ref.data;
         _this.grams = data.data;
+        console.log(data, "data");
         _this.username = data.data[0].user.username;
         _this.next_url = data.pagination.next_url;
       })["catch"](function (error) {
@@ -3632,7 +3631,7 @@ __webpack_require__.r(__webpack_exports__);
     getMoreGrams: function getMoreGrams() {
       var _this2 = this;
 
-      axios.get(this.next_url).then(function (_ref2) {
+      jsonp(this.next_url).then(function (_ref2) {
         var data = _ref2.data;
         _this2.grams = _this2.grams.concat(data.data);
         _this2.next_url = data.pagination.next_url;
@@ -20242,10 +20241,7 @@ var render = function() {
                     [
                       _c(
                         "inertia-link",
-                        {
-                          staticClass: "nav-link blog",
-                          attrs: { href: "gallery" }
-                        },
+                        { staticClass: "nav-link", attrs: { href: "gallery" } },
                         [_vm._v("Gallery")]
                       )
                     ],
@@ -20934,7 +20930,7 @@ var render = function() {
       _c("nav-bar"),
       _vm._v(" "),
       _c("h1", [
-        _c("a", { attrs: { href: _vm.instapage } }, [
+        _c("a", { attrs: { href: _vm.instaPage } }, [
           _vm._v("@artsy_capptures on instagram")
         ])
       ]),
@@ -20945,14 +20941,7 @@ var render = function() {
               _c(
                 "a",
                 { attrs: { href: "https://www.instagram.com/p/BjXplo-ASdr/" } },
-                [
-                  _c("img", {
-                    attrs: {
-                      src: gram.images.standard_resolution.url,
-                      alt: gram.text
-                    }
-                  })
-                ]
+                [_c("img", { attrs: { src: gram.media_url, alt: gram.text } })]
               )
             ])
           })

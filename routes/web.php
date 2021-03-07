@@ -18,6 +18,7 @@ Auth::routes();
 
 Route::get('/', [IndexController::class, 'index']);
 Route::get('/insta-feed', [IndexController::class, 'instaFeed']);
+Route::get('/photo-feed', [IndexController::class, 'photoFeed']);
 Route::post('/submit', [ContactController::class, 'submit']);
 
 Route::inertia('/', 'Index');

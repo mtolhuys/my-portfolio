@@ -1,11 +1,11 @@
 <template>
     <div class="about-content">
         <nav-bar/>
-        <h1><a :href="instapage">@artsy_capptures on instagram</a></h1>
+        <h1><a :href="instaPage">@artsy_capptures on instagram</a></h1>
         <template v-if="grams.length > 0">
             <div v-for="(gram, index) in grams">
                 <a href="https://www.instagram.com/p/BjXplo-ASdr/">
-                    <img :src="gram.images.standard_resolution.url" :alt="gram.text" />
+                    <img :src="gram.media_url" :alt="gram.text" />
                 </a>
             </div>
         </template>
@@ -28,8 +28,6 @@
         },
         data() {
             return {
-                access_token: "IGQVJXQ1Y0aDdjTm95ZAHpacktOVDRLS1BOSmtPX25hQ3VMOTd1NmxCeWRRNGRiWml0MEpDekh0SEkzU3FaLUNNZAGNNTVdHVWNISjJyalY4bDItR3V4dm9UNkktbDNNd0pFWnphNkloNGdZAcmRyLWtwTgZDZD",
-                url: "https://api.instagram.com/v1/users/self/media/recent/",
                 username: "",
                 grams: [],
                 next_url: "",
@@ -37,15 +35,16 @@
             }
         },
         computed: {
-            instapage() {
+            instaPage() {
                 return 'https://www.instagram.com/' + this.username
             }
         },
         methods: {
             getGrams() {
-                axios.get(this.url + "?access_token=" + this.access_token)
+                axios.get('photo-feed')
                     .then(({data}) => {
                         this.grams = data.data
+                        console.log(data, "data" );
                         this.username = data.data[0].user.username
                         this.next_url = data.pagination.next_url
                     })
@@ -55,7 +54,7 @@
                     });
             },
             getMoreGrams(){
-                axios.get(this.next_url)
+                jsonp(this.next_url)
                     .then(({data}) => {
                         this.grams = this.grams.concat(data.data)
                         this.next_url = data.pagination.next_url
