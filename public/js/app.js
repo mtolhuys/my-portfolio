@@ -20241,7 +20241,10 @@ var render = function() {
                     [
                       _c(
                         "inertia-link",
-                        { staticClass: "nav-link", attrs: { href: "gallery" } },
+                        {
+                          staticClass: "nav-link admin",
+                          attrs: { href: "gallery" }
+                        },
                         [_vm._v("Gallery")]
                       )
                     ],

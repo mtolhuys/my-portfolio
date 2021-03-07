@@ -90,7 +90,7 @@
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
-                            <inertia-link class="nav-link blog"  href="gallery">Gallery</inertia-link>
+                            <inertia-link class="nav-link admin"  href="gallery">Gallery</inertia-link>
                         </li>
                         <li class="nav-item">
                             <!-- Navbar link-->
