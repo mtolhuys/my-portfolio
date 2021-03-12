@@ -3446,6 +3446,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -3453,6 +3455,16 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     FooterSection: _FooterSection__WEBPACK_IMPORTED_MODULE_1__["default"],
     NavBar: _NavBar__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    setInterval(function (_) {
+      if (document.getElementsByClassName('eapps-link')[0]) {
+        document.getElementsByClassName('eapps-link')[0].remove();
+        clearInterval(_this);
+      }
+    }, 500);
   }
 });
 
@@ -20848,6 +20860,10 @@ var staticRenderFns = [
             _c("h1", [_vm._v("Checkout my pictures on Instagram!")])
           ])
         ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("br"),
         _vm._v(" "),
         _c("div", {
           staticClass: "elfsight-app-2fe22db3-d5eb-43f8-8f05-c724b01dd913"
