@@ -27,6 +27,8 @@
 
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}"></link>
     <script src="{{ mix('/js/app.js') }}" defer></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
     <!-- Recaptcha-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Recaptcha-->
